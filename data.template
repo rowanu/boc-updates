@@ -1,0 +1,32 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: BigOrange.Cloud Updates data layer
+
+Parameters:
+  ParameterScope:
+    Type: String
+    Description: The top-level scope for parameters
+
+Resources:
+  ActiveTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: PK
+          AttributeType: S
+        - AttributeName: SK
+          AttributeType: S
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
+
+  ActiveTableNameParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: !Sub ${ParameterScope}/tables/active/name
+      Type: String
+      Value: !Ref ActiveTable
