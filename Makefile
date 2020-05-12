@@ -9,6 +9,13 @@ GITHUB_BRANCH ?= master
 GITHUB_OWNER ?= rowanu
 GITHUB_REPO ?= boc-feed
 
+# Build functions
+FUNCTIONDIRS := $(wildcard functions/*/.)
+.PHONY: functions $(FUNCTIONDIRS)
+functions: $(FUNCTIONDIRS)
+$(FUNCTIONDIRS):
+	$(MAKE) -C $@
+
 .PHONY: install
 install: functions
 	# TODO: Need to install linters e.g. cfn-lint, etc
@@ -41,4 +48,18 @@ data.template:
 		--template-file data.template \
 		--parameter-overrides \
 			ParameterScope=${PARAMETER_SCOPE} \
+		--no-fail-on-empty-changeset
+
+.PHONY: scrapers.template
+scrapers.template: functions
+	aws cloudformation package \
+		--template-file $@ \
+		--s3-bucket ${S3_BUCKET} \
+		--output-template-file $@.out
+	aws cloudformation deploy \
+		--stack-name ${STACK_PREFIX}-scrapers \
+		--template-file $@.out \
+		--parameter-overrides \
+			ActiveTableName=${PARAMETER_SCOPE}/tables/active/name \
+		--capabilities CAPABILITY_IAM \
 		--no-fail-on-empty-changeset

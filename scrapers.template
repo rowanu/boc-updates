@@ -1,0 +1,75 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: BigOrange.Cloud Updates scrapers
+
+Transform: AWS::Serverless-2016-10-31
+
+Parameters:
+
+  ActiveTableName:
+    Type: AWS::SSM::Parameter::Value<String>
+    Description: The DDB table name
+
+  # ParameterScope:
+  #   Type: String
+  #   Default: /boc/feed
+  #   Description: The top-level scope for parameters in SM PS
+
+Resources:
+
+  ReadFeedFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./functions/scrapeBlogRss
+      Handler: index.handler
+      MemorySize: 256
+      Timeout: 30
+      Runtime: nodejs12.x
+      ReservedConcurrentExecutions: 1
+      Environment:
+        Variables:
+          AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1"
+          ACTIVE_TABLE_NAME: !Ref ActiveTableName
+      Events:
+        Schedule:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 hour)
+            Input: |
+              {
+                "sources": [
+                  {
+                    "name": "AWS Blog",
+                    "url": "https://feeds.feedburner.com/AmazonWebServicesBlog"
+                  },
+                  {
+                    "name": "Recent Announcements",
+                    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+                  }
+                ]
+              }
+      Policies:
+        - Version: "2012-10-17"
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:PutItem
+              Resource:
+                - !Sub
+                  arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}
+                - !Sub
+                  arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}/*
+
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub /aws/lambda/${ReadFeedFunction}
+      RetentionInDays: 7
+
+  # Parameter:
+  #   Type: AWS::SSM::Parameter
+  #   Properties:
+  #     Name: !Sub ${ParameterScope}/
+  #     Type: String
+  #     Value:

@@ -1,0 +1,1402 @@
+[
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon SageMaker now supports ml.g4dn and ml.c5n instances for ML model training",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-sagemaker-now-supports-ml-g4dn-and-ml-c5n-instances-for-ml-model-training/",
+    "pubDate": "Fri, 17 Apr 2020 17:54:52 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/sagemaker/\">Amazon SageMaker</a> customers can now select ml.g4dn and ml.c5n instances for training machine learning models. Amazon SageMaker is a modular, fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. <br /> </p>",
+    "contentSnippet": "Amazon SageMaker customers can now select ml.g4dn and ml.c5n instances for training machine learning models. Amazon SageMaker is a modular, fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale.",
+    "guid": "9d83647a29a8d0ab99fb13192de1f46b12f26389",
+    "categories": [
+      "general:products/amazon-machine-learning,general:products/amazon-sagemaker"
+    ],
+    "isoDate": "2020-04-17T17:54:52.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Elemental MediaPackage Now Available in Europe (Stockholm) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elemental-mediapackage-now-available-in-europe-stockholm-region/",
+    "pubDate": "Fri, 17 Apr 2020 18:34:20 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/mediapackage/\">AWS Elemental MediaPackage</a> is a video origination and just-in-time packaging service that allows video distributors to securely and reliably deliver live streaming or on-demand content at scale. From a single video input, MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles. It makes it easy to implement popular video features commonly found on DVRs, such as start-over, pause, and rewind. The service can also protect your content using Digital Rights Management (DRM) technologies.</p>",
+    "contentSnippet": "AWS Elemental MediaPackage is a video origination and just-in-time packaging service that allows video distributors to securely and reliably deliver live streaming or on-demand content at scale. From a single video input, MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles. It makes it easy to implement popular video features commonly found on DVRs, such as start-over, pause, and rewind. The service can also protect your content using Digital Rights Management (DRM) technologies.",
+    "guid": "e557ecb4f4c9c14010f600647eee62265615d71d",
+    "categories": [
+      "general:products/aws-elemental-mediapackage,marketing:marchitecture/media-services"
+    ],
+    "isoDate": "2020-04-17T18:34:20.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Connect supports adjustable timeouts for Amazon Lex chatbots",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-connect-supports-adjustable-timeouts-for-amazon-lex-chatbots/",
+    "pubDate": "Fri, 17 Apr 2020 21:02:38 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, contact center admins can improve their Amazon Lex chatbots by configuring timeouts for each customer response in a conversation. The timeout determines how long the chatbot waits for the customer to finish speaking. For example, you might configure a short timeout for a yes/no question, but a longer timeout when asking for an address or credit card number, to give the customer more time to finish speaking.<br /> </p>",
+    "contentSnippet": "Starting today, contact center admins can improve their Amazon Lex chatbots by configuring timeouts for each customer response in a conversation. The timeout determines how long the chatbot waits for the customer to finish speaking. For example, you might configure a short timeout for a yes/no question, but a longer timeout when asking for an address or credit card number, to give the customer more time to finish speaking.",
+    "guid": "897b148214734fb7c661a734c0c72e91554a9a78",
+    "categories": [
+      "marketing:marchitecture/business-productivity,marketing:marchitecture/messaging"
+    ],
+    "isoDate": "2020-04-17T21:02:38.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS OpsWorks for Puppet Enterprise Now Supports Custom Domains ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-opsworks-puppet-enterprise-supports-custom-domains/",
+    "pubDate": "Fri, 17 Apr 2020 20:48:42 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS OpsWorks for Puppet Enterprise now supports custom domains. Through the existing interfaces you can now provide a custom fully qualified domain name (FQDN), its matching SSL certificate, and SSL private key and have the OpsWorks server configured accordingly. After you have created a Canonical Name (CNAME) entry in your DNS management service to point to the internal OpsWorks endpoint, you will find your Puppet Enterprise Dashboard under a domain of your choice instead of the generic OpsWorks-created one. Also, this will now be the public endpoint of your OpsWorks server. By using a custom domain with an SSL certificate that you manage, you have an endpoint that stays the same regardless of the server being re-created: any node under management by the OpsWorks for Puppet Enterprise server will stay associated through this endpoint.&nbsp;</p>",
+    "contentSnippet": "AWS OpsWorks for Puppet Enterprise now supports custom domains. Through the existing interfaces you can now provide a custom fully qualified domain name (FQDN), its matching SSL certificate, and SSL private key and have the OpsWorks server configured accordingly. After you have created a Canonical Name (CNAME) entry in your DNS management service to point to the internal OpsWorks endpoint, you will find your Puppet Enterprise Dashboard under a domain of your choice instead of the generic OpsWorks-created one. Also, this will now be the public endpoint of your OpsWorks server. By using a custom domain with an SSL certificate that you manage, you have an endpoint that stays the same regardless of the server being re-created: any node under management by the OpsWorks for Puppet Enterprise server will stay associated through this endpoint.&nbsp;",
+    "guid": "9703d8af4905179f803a969a341742c0e535f9e2",
+    "categories": [
+      "marketing:marchitecture/management-and-governance,general:products/aws-opsworks"
+    ],
+    "isoDate": "2020-04-17T20:48:42.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Certificate Manager Private Certificate Authority now includes increased certificate issuance rate limits and support for Amazon S3 bucket encryption",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-certificate-manager-private-certificate-authority-two-new-features/",
+    "pubDate": "Fri, 17 Apr 2020 17:47:39 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Certificate Manager (ACM) Private Certificate Authority (CA) now supports increased certificate issuance rate limits and support for encryption of Amazon S3 buckets used for certificate revocation lists and audit reports.<br /> </p>",
+    "contentSnippet": "AWS Certificate Manager (ACM) Private Certificate Authority (CA) now supports increased certificate issuance rate limits and support for encryption of Amazon S3 buckets used for certificate revocation lists and audit reports.",
+    "guid": "7176fbe28f847843c24e9221cbc1988b859c2478",
+    "categories": [
+      "marketing:marchitecture/security-identity-and-compliance,general:products/aws-certificate-manager"
+    ],
+    "isoDate": "2020-04-17T17:47:39.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CloudWatch Synthetics now supports monitoring private endpoints in a VPC",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-synthetics-supports-monitoring-private-endpoints-in-vpc/",
+    "pubDate": "Thu, 16 Apr 2020 16:59:57 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Customers can now use Amazon CloudWatch Synthetics to monitor their private endpoints that run in a virtual private cloud (VPC). Microservices, APIs, or internal web tools inside a private network often power customer-facing websites and applications. Further, there are several critical internal applications such as for accounting, collaboration tools, corporate email, and payroll that have a direct impact on increased productivity for your organization. Continuously monitoring both internal and external endpoints using synthetic monitoring is vital to ensure smooth operations on a consistent basis.&nbsp;</p>",
+    "contentSnippet": "Customers can now use Amazon CloudWatch Synthetics to monitor their private endpoints that run in a virtual private cloud (VPC). Microservices, APIs, or internal web tools inside a private network often power customer-facing websites and applications. Further, there are several critical internal applications such as for accounting, collaboration tools, corporate email, and payroll that have a direct impact on increased productivity for your organization. Continuously monitoring both internal and external endpoints using synthetic monitoring is vital to ensure smooth operations on a consistent basis.&nbsp;",
+    "guid": "aaecc86117ec7fba5c4c084244f418ccae9b4484",
+    "categories": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/developer-tools,marketing:marchitecture/management-and-governance"
+    ],
+    "isoDate": "2020-04-16T16:59:57.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Transit Gateway Network Manager now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-transit-gateway-network-manager-now-available-additional-aws-regions/",
+    "pubDate": "Thu, 16 Apr 2020 17:03:31 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, <a href=\"/transit-gateway/network-manager/\" target=\"_blank\">AWS Transit Gateway Network Manager</a> is now available in Middle East (Bahrain), Asia Pacific (Hong Kong) and EU (Stockholm) Regions.</p>",
+    "contentSnippet": "Starting today, AWS Transit Gateway Network Manager is now available in Middle East (Bahrain), Asia Pacific (Hong Kong) and EU (Stockholm) Regions.",
+    "guid": "4cfe2529bb536ed75a2dced757a271ba4d84feb6",
+    "categories": [
+      "general:products/aws-transit-gateway,general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
+    ],
+    "isoDate": "2020-04-16T17:03:31.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS for SQL Server now supports Multifile Native Backups",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-for-sqlserver-now-supports-multi-file-native-backups/",
+    "pubDate": "Thu, 16 Apr 2020 17:01:12 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/rds/sqlserver/\" target=\"_blank\">Amazon RDS for SQL Server</a> now Supports Multifile Native Backups. With this feature, you can back up data from a single database across multiple files, uploading each of them in parallel directly to Amazon S3. This improves the overall backup experience.&nbsp;</p>",
+    "contentSnippet": "Amazon RDS for SQL Server now Supports Multifile Native Backups. With this feature, you can back up data from a single database across multiple files, uploading each of them in parallel directly to Amazon S3. This improves the overall backup experience.&nbsp;",
+    "guid": "83cb6040e455fc8a2ea388ad946bee313abd5a57",
+    "categories": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-16T17:01:12.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon MSK is now available in AWS China (Beijing) region, operated by Sinnet and AWS China (Ningxia) region, operated by NWCD",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-msk-now-available-beijing-sinnet-ningxia-nwcd/",
+    "pubDate": "Thu, 16 Apr 2020 21:06:11 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"https://www.amazonaws.cn/en/msk/\" target=\"_blank\">Amazon Managed Streaming for Apache Kafka</a> (Amazon MSK) is now available in AWS China (Beijing) region, operated by Sinnet and AWS China (Ningxia) region, operated by NWCD. &nbsp;</p>",
+    "contentSnippet": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) is now available in AWS China (Beijing) region, operated by Sinnet and AWS China (Ningxia) region, operated by NWCD. &nbsp;",
+    "guid": "93943b9d4370b74569f7256a9eeb90b69e07679f",
+    "categories": [
+      "general:products/amazon-msk,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-16T21:06:11.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Polly launches Spanish Newscaster style voice",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-polly-launches-spanish-newscaster-style-voice/",
+    "pubDate": "Thu, 16 Apr 2020 17:44:39 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/polly/\" target=\"_blank\">Amazon Polly</a> is a service that turns text into lifelike speech, and today we are excited to announce the general availability of US Spanish Newscaster speaking style voice. The Newscaster speaking style was developed using the latest Neural Text-to-Speech technology, and imitates the voice of a news anchor. The US Spanish voice is the second language launched by Polly in the Newscaster speaking style, following the release of <a href=\"/about-aws/whats-new/2019/07/amazon-polly-launches-neural-text-to-speech-and-newscaster-voices/\" target=\"_blank\">Newscaster speaking style voices</a> in US English in July 2019.&nbsp;To hear an audio sample of the US Spanish Newscaster voice click <a href=\"https://d1.awsstatic.com/product-marketing/Polly/lupe_blog_news_new416.73d2147e6ec4c01a015dad01c384310409dd19e4.mp3\">here</a>.</p>",
+    "contentSnippet": "Amazon Polly is a service that turns text into lifelike speech, and today we are excited to announce the general availability of US Spanish Newscaster speaking style voice. The Newscaster speaking style was developed using the latest Neural Text-to-Speech technology, and imitates the voice of a news anchor. The US Spanish voice is the second language launched by Polly in the Newscaster speaking style, following the release of Newscaster speaking style voices in US English in July 2019.&nbsp;To hear an audio sample of the US Spanish Newscaster voice click here.",
+    "guid": "25c940064860fdb3692e48a38c290abf1168eea5",
+    "categories": [
+      "general:products/amazon-polly,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-16T17:44:39.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Security Hub launches a new API called BatchUpdateFindings and new Workflow Statuses",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-security-hub-launches-new-api-called-batchupdatefindings-new-workflow-statuses/",
+    "pubDate": "Thu, 16 Apr 2020 20:10:39 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/security-hub/\" target=\"_blank\">AWS Security Hub</a> has released a new API action called BatchUpdateFindings, and we plan to deprecate the current UpdateFindings API. The UpdateFindings API only supported a few fields in the AWS Security Finding Format (ASFF), and wasn't integrated with CloudWatch Events. The BatchUpdateFindings API fixes those issues and supports a much larger set of fields that can now be updated, such as severity, criticality, confidence, user defined fields, notes, and workflow status. Also, the fields that BatchUpdateFindings can update cannot be updated by finding providers. Those fields can only be updated by the customer or by SIEM/ticketing/SOAR tools that have access to this API action. This prevents finding providers from overwriting your updates. You can use the BatchUpdateFindings API to complete actions such as creating your own suppression rules, changing severity scores, and adding notes to findings. To learn more about this API, please visit our <a href=\"https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_BatchUpdateFindings.html\" target=\"_blank\">documentation</a>.</p>",
+    "contentSnippet": "AWS Security Hub has released a new API action called BatchUpdateFindings, and we plan to deprecate the current UpdateFindings API. The UpdateFindings API only supported a few fields in the AWS Security Finding Format (ASFF), and wasn't integrated with CloudWatch Events. The BatchUpdateFindings API fixes those issues and supports a much larger set of fields that can now be updated, such as severity, criticality, confidence, user defined fields, notes, and workflow status. Also, the fields that BatchUpdateFindings can update cannot be updated by finding providers. Those fields can only be updated by the customer or by SIEM/ticketing/SOAR tools that have access to this API action. This prevents finding providers from overwriting your updates. You can use the BatchUpdateFindings API to complete actions such as creating your own suppression rules, changing severity scores, and adding notes to findings. To learn more about this API, please visit our documentation.",
+    "guid": "a2750c1de0b24ebd3878377c74e167f2e8231bab",
+    "categories": [
+      "general:products/aws-security-hub,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-16T20:10:39.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Redshift announces general availability for federated querying ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-redshift-announces-general-availability-for-federated-querying/",
+    "pubDate": "Fri, 17 Apr 2020 00:19:59 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Redshift enables you to query data across your operational databases, your data warehouse, and your data lake. With Amazon Redshift Federated Query, you can query live data in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL and integrate it with the data in your Amazon Redshift and Amazon S3 environments. &nbsp;</p>",
+    "contentSnippet": "Amazon Redshift enables you to query data across your operational databases, your data warehouse, and your data lake. With Amazon Redshift Federated Query, you can query live data in Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL and integrate it with the data in your Amazon Redshift and Amazon S3 environments. &nbsp;",
+    "guid": "308dff67d2697a2f759409ccc96a0875036b4873",
+    "categories": [
+      "general:products/amazon-redshift,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-17T00:19:59.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Introducing AWS OpsHub for  Snow Family, a graphical user interface to manage AWS Snowball devices",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-aws-opshub-snow-family/",
+    "pubDate": "Thu, 16 Apr 2020 16:39:52 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"https://docs.aws.amazon.com/snowball/latest/developer-guide/aws-opshub.html\" target=\"_blank\">AWS OpsHub</a> is a graphical user interface you can use to manage your <a href=\"/snowball/\" target=\"_blank\">AWS Snowball</a> devices, enabling you to rapidly deploy edge computing workloads and simplify data migration to the cloud. With just a few clicks in AWS OpsHub, you have the full functionality of the Snowball devices at your fingertips; you can unlock and configure devices, drag-and-drop data to devices, launch applications, and monitor device metrics. &nbsp;</p>",
+    "contentSnippet": "AWS OpsHub is a graphical user interface you can use to manage your AWS Snowball devices, enabling you to rapidly deploy edge computing workloads and simplify data migration to the cloud. With just a few clicks in AWS OpsHub, you have the full functionality of the Snowball devices at your fingertips; you can unlock and configure devices, drag-and-drop data to devices, launch applications, and monitor device metrics. &nbsp;",
+    "guid": "bfc439ffc80c873469a4a9c17c7b5c50ac4576b3",
+    "categories": [
+      "general:products/aws-snowball,marketing:marchitecture/storage,marketing:marchitecture/migration"
+    ],
+    "isoDate": "2020-04-16T16:39:52.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Snowball now supports local AWS IAM",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-snowball-now-supports-local-aws-iam/",
+    "pubDate": "Thu, 16 Apr 2020 16:45:02 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/snowball/\">AWS Snowball</a> now supports local <a href=\"/iam/\">AWS Identity and Access Management</a>&nbsp; (IAM), allowing you to securely manage access to AWS services and resources running on your Snowball device by controlling what actions users can take, and what AWS resources on the device users can take those actions on. <br /> </p>",
+    "contentSnippet": "AWS Snowball now supports local AWS Identity and Access Management&nbsp; (IAM), allowing you to securely manage access to AWS services and resources running on your Snowball device by controlling what actions users can take, and what AWS resources on the device users can take those actions on.",
+    "guid": "4eccde205807dc9d8ba206ab9f24f1d21dfc4483",
+    "categories": [
+      "general:products/aws-snowball-edge,general:products/aws-iam,marketing:marchitecture/storage,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-16T16:45:02.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Snowball adds task automation with AWS Systems Manager ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-snowball-adds-task-automation-aws-systems-manager/",
+    "pubDate": "Thu, 16 Apr 2020 16:24:41 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/snowball/\" target=\"_blank\">AWS Snowball</a>&nbsp;adds task automation with <a href=\"/systems-manager/\" target=\"_blank\">AWS Systems Manager</a>,&nbsp;simplifying common maintenance and deployment tasks on instances and other resources on your Snowball device. You can write scripts in Python or PowerShell directly in <a href=\"https://docs.aws.amazon.com/snowball/latest/developer-guide/aws-opshub.html\" target=\"_blank\">AWS OpsHub</a>, a graphical user interface for managing <a href=\"/snow/\" target=\"_blank\">Snow Family</a> devices. The scripts can include any operations supported on the device.&nbsp;When these scripts are executed, AWS OpsHub will automatically execute the defined operations. These automated scripts can also be presented as actions listed in customizable drop-down menus.</p>",
+    "contentSnippet": "AWS Snowball&nbsp;adds task automation with AWS Systems Manager,&nbsp;simplifying common maintenance and deployment tasks on instances and other resources on your Snowball device. You can write scripts in Python or PowerShell directly in AWS OpsHub, a graphical user interface for managing Snow Family devices. The scripts can include any operations supported on the device.&nbsp;When these scripts are executed, AWS OpsHub will automatically execute the defined operations. These automated scripts can also be presented as actions listed in customizable drop-down menus.",
+    "guid": "e59b08a11bd5871b5dc7137ce465e7b4a28ebdcb",
+    "categories": [
+      "general:products/aws-snowball,marketing:marchitecture/storage,marketing:marchitecture/migration"
+    ],
+    "isoDate": "2020-04-16T16:24:41.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Snowball Edge Storage Optimized now delivers 25% faster data transfer performance",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-snowball-edge-storage-optimized/",
+    "pubDate": "Thu, 16 Apr 2020 16:18:29 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/snowball/\" target=\"_blank\">AWS Snowball Edge Storage Optimized</a> now delivers 25% faster data transfer performance, accelerating the process of moving terabytes to petabytes of data to AWS. Edge compute capabilities in the new device increased to 40 vCPUs and 80 GiB of memory, supporting sbe-c instance types for running applications at the edge. Network port options have expanded with the addition of 100 GbE ports. To improve unlocking, monitoring, and operation, AWS Snowball Edge Storage Optimized is fully compatible with the new <a href=\"https://docs.aws.amazon.com/snowball/latest/developer-guide/aws-opshub.html\" target=\"_blank\">AWS OpsHub</a> application that provides a graphical user interface for these tasks.</p>",
+    "contentSnippet": "AWS Snowball Edge Storage Optimized now delivers 25% faster data transfer performance, accelerating the process of moving terabytes to petabytes of data to AWS. Edge compute capabilities in the new device increased to 40 vCPUs and 80 GiB of memory, supporting sbe-c instance types for running applications at the edge. Network port options have expanded with the addition of 100 GbE ports. To improve unlocking, monitoring, and operation, AWS Snowball Edge Storage Optimized is fully compatible with the new AWS OpsHub application that provides a graphical user interface for these tasks.",
+    "guid": "6af6e8b88919054a0eb83d0ac697194500fe4492",
+    "categories": [
+      "general:products/aws-snowball-edge,marketing:marchitecture/storage,marketing:marchitecture/migration"
+    ],
+    "isoDate": "2020-04-16T16:18:29.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "New AWS Public Datasets Available from Ford, the Allen Institute for Brain Science, the National Cancer Institute, and others",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/new-aws-public-datasets-available/",
+    "pubDate": "Thu, 16 Apr 2020 13:01:04 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>30 new or updated AWS Public Datasets from Ford, the Allen Institute, Howard Hughes Medical Institute Janelia, the National Cancer Institute, and others are now available in the following categories:<br /> </p>",
+    "contentSnippet": "30 new or updated AWS Public Datasets from Ford, the Allen Institute, Howard Hughes Medical Institute Janelia, the National Cancer Institute, and others are now available in the following categories:",
+    "guid": "668baecf1bf3bcf480faceeecf95fced091da4fb",
+    "categories": [
+      "marketing:audience/public-sector-non-profit,marketing:audience/public-sector-education,marketing:audience/public-sector-government-local,marketing:audience/public-sector-government,marketing:audience/public-sector-government-national,marketing:audience/public-sector-eduation,marketing:industry,marketing:industry/education,marketing:industry/government-and-public-services,marketing:industry/healthcare,marketing:industry/life-sciences,marketing:industry/government,marketing:industry/edtech,marketing:industry/non-profit-organization"
+    ],
+    "isoDate": "2020-04-16T13:01:04.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS X-Ray SDK for Go is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-x-ray-sdk-for-go-is-now-generally-available/",
+    "pubDate": "Thu, 16 Apr 2020 21:13:07 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS X-Ray SDK for Go is now generally available, enabling Go developers to get an end to end view of requests as they travel through their applications. &nbsp;</p>",
+    "contentSnippet": "AWS X-Ray SDK for Go is now generally available, enabling Go developers to get an end to end view of requests as they travel through their applications. &nbsp;",
+    "guid": "045c8166eaa04fd6b3e2d33b192afe89d6c861f7",
+    "categories": [
+      "general:products/aws-x-ray,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-16T21:13:07.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS IoT Events adds support for custom actions payloads and custom timers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-iot-events-adds-support-for-custom-actions-payloads-and-custom-timers/",
+    "pubDate": "Thu, 16 Apr 2020 23:07:43 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, you can customize the message in any action triggered by an event or a state change using the new AWS IoT Events expression syntax. This allows you to add custom text and remove irrelevant data from the messages sent by AWS IoT Events. With this launch, you can also define timer durations and MQTT topic names unique to each device (or detector instance).&nbsp;</p>",
+    "contentSnippet": "Starting today, you can customize the message in any action triggered by an event or a state change using the new AWS IoT Events expression syntax. This allows you to add custom text and remove irrelevant data from the messages sent by AWS IoT Events. With this launch, you can also define timer durations and MQTT topic names unique to each device (or detector instance).&nbsp;",
+    "guid": "5c9495ae2d877d38ea5b48643a9b519cf72dea78",
+    "categories": [
+      "general:products/aws-iot,marketing:marchitecture/internet-of-things"
+    ],
+    "isoDate": "2020-04-16T23:07:43.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "NICE DCV Releases Version 2020.0 with Surround Sound 7.1 and Stylus Support",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/nice-dcv-releases-version-2020-0-with-surround-sound-7-1-and-stylus-support/",
+    "pubDate": "Thu, 16 Apr 2020 19:14:10 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>We are pleased to announce the release of NICE DCV version 2020.0 with the following new features:</p> \n<ul> \n <li>Stylus and touch support on Linux server</li> \n <li>Surround sound 7.1 playback on Windows server to Windows native client</li> \n <li>Hardware acceleration and stylus support on Linux native client</li> \n <li>New API command to set display layout on server side</li> \n <li>Multi-monitor web client support on the new Microsoft Edge browser (version 79.0.309 or higher)</li> \n</ul>",
+    "contentSnippet": "We are pleased to announce the release of NICE DCV version 2020.0 with the following new features: \n \n Stylus and touch support on Linux server \n Surround sound 7.1 playback on Windows server to Windows native client \n Hardware acceleration and stylus support on Linux native client \n New API command to set display layout on server side \n Multi-monitor web client support on the new Microsoft Edge browser (version 79.0.309 or higher)",
+    "guid": "664b7ebf9135381798360b496f6a513fd8069b40",
+    "categories": [
+      "marketing:marchitecture/compute"
+    ],
+    "isoDate": "2020-04-16T19:14:10.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Toolkit for JetBrains IDEs Adds New CloudWatch Logs Integration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-toolkit-for-jetbrains-ides-adds-new-coudwatch-logs-integration/",
+    "pubDate": "Thu, 16 Apr 2020 21:39:57 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>CloudWatch Logs integration in the AWS Toolkit for JetBrains IDEs (<a href=\"/intellij/\">IntelliJ</a>, <a href=\"/pycharm/\">PyCharm</a>, <a href=\"/rider/\">Rider</a> and <a href=\"/webstorm/\">WebStorm</a>)&nbsp; — allows developers to easily view and search for specific error codes or patterns from log streams. The AWS Toolkit for JetBrains is an open source plugin for the integrated development environments (IDEs) from JetBrains. The toolkit makes it easier to create, debug, and deploy Java, Python, JavaScript or .NET applications on Amazon Web Services using JetBrains IDEs. You can get started faster and be more productive with an integrated experience for developing serverless applications, including assistance for getting started, step-through debugging, building, and deploying from the IDE. <br /> </p>",
+    "contentSnippet": "CloudWatch Logs integration in the AWS Toolkit for JetBrains IDEs (IntelliJ, PyCharm, Rider and WebStorm)&nbsp; — allows developers to easily view and search for specific error codes or patterns from log streams. The AWS Toolkit for JetBrains is an open source plugin for the integrated development environments (IDEs) from JetBrains. The toolkit makes it easier to create, debug, and deploy Java, Python, JavaScript or .NET applications on Amazon Web Services using JetBrains IDEs. You can get started faster and be more productive with an integrated experience for developing serverless applications, including assistance for getting started, step-through debugging, building, and deploying from the IDE.",
+    "guid": "b26de9f7f7a3fc86c087088a51eb8b986619eb55",
+    "categories": [
+      "general:products/amazon-cloudwatch,general:products/amazon-s3,marketing:marchitecture/storage,general:products/aws-toolkit-for-intellij,marketing:marchitecture/developer-tools,marketing:marchitecture/management-and-governance"
+    ],
+    "isoDate": "2020-04-16T21:39:57.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon EKS Now Supports Service-Linked Roles",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-eks-supports-service-linked-roles/",
+    "pubDate": "Thu, 16 Apr 2020 20:52:23 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Elastic Kubernetes Service (EKS) now supports using AWS Identity and Access Management (IAM) <a href=\"http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-linked-role\">service-linked roles</a> to easily delegate cluster management permissions to EKS.<br /> </p>",
+    "contentSnippet": "Amazon Elastic Kubernetes Service (EKS) now supports using AWS Identity and Access Management (IAM) service-linked roles to easily delegate cluster management permissions to EKS.",
+    "guid": "fe907a58c2d87c574b5d1694aeff640cff6bdb46",
+    "categories": [
+      "marketing:marchitecture/compute,marketing:marchitecture/security-identity-and-compliance,general:products/amazon-eks"
+    ],
+    "isoDate": "2020-04-16T20:52:23.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS now supports MySQL 8.0 in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-now-supports-mysql-8-0-in-aws-govcloud-us-regions/",
+    "pubDate": "Mon, 13 Apr 2020 23:26:36 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/rds/mysql/\">Amazon RDS for MySQL</a> now supports MySQL Community Edition major version 8.0 in AWS GovCloud (US) Regions. MySQL 8.0 is the latest major version release and offers new query functionality and enhancements for better performance, reliability, security, manageability, and international and mobile support.</p>",
+    "contentSnippet": "Amazon RDS for MySQL now supports MySQL Community Edition major version 8.0 in AWS GovCloud (US) Regions. MySQL 8.0 is the latest major version release and offers new query functionality and enhancements for better performance, reliability, security, manageability, and international and mobile support.",
+    "guid": "ecb42ff0f1f552a1b77592723e64be76ac86db3d",
+    "categories": [
+      "general:products/amazon-rds,general:products/aws-govcloud-us,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-13T23:26:36.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Config now supports multi-account, multi-region advanced query in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-config-now-supports-multi-account-multi-region-advanced-query-in-aws-govcloud-us-regions/",
+    "pubDate": "Mon, 13 Apr 2020 19:38:04 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Config now supports multi-account, multi-region advanced query enabling you to run queries across accounts and Regions in <a href=\"/govcloud-us/\">AWS GovCloud (US)</a>. This feature provides you an easy mechanism to query your entire AWS footprint from a central account and get relevant information about your resources. For example, using this query capability, you can retrieve a list of Amazon Elastic Compute Cloud (Amazon EC2) instances of a particular size, Amazon Elastic Block Store (Amazon EBS) volumes that are not attached to an Amazon EC2 instance, or resources that have encryption disabled. This capability works across accounts, Regions, and organizations in AWS Organizations. <br /> </p>",
+    "contentSnippet": "AWS Config now supports multi-account, multi-region advanced query enabling you to run queries across accounts and Regions in AWS GovCloud (US). This feature provides you an easy mechanism to query your entire AWS footprint from a central account and get relevant information about your resources. For example, using this query capability, you can retrieve a list of Amazon Elastic Compute Cloud (Amazon EC2) instances of a particular size, Amazon Elastic Block Store (Amazon EBS) volumes that are not attached to an Amazon EC2 instance, or resources that have encryption disabled. This capability works across accounts, Regions, and organizations in AWS Organizations.",
+    "guid": "5b5cb3b1d61d178e5032f225ce25c89cd7bf5ab9",
+    "categories": [
+      "general:products/aws-config,marketing:marchitecture/management-and-governance,general:products/aws-govcloud-us"
+    ],
+    "isoDate": "2020-04-13T19:38:04.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Aurora with PostgreSQL compatibility Supports Additional Sizes for the db.r5 Instance Class",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-aurora-with-postgresql-compatibility-supports-additional-sizes-for-the-dbr5-instance-class/",
+    "pubDate": "Fri, 10 Apr 2020 21:02:37 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, <a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\">Amazon Aurora with PostgreSQL compatibility</a> supports the r5.8xlarge and r5.16xlarge instance sizes. With support for these new instance sizes, customers who are currently using r4.8xlarge or r4.16xlarge now have an easy upgrade path to the latest generation of instances.</p>",
+    "contentSnippet": "Starting today, Amazon Aurora with PostgreSQL compatibility supports the r5.8xlarge and r5.16xlarge instance sizes. With support for these new instance sizes, customers who are currently using r4.8xlarge or r4.16xlarge now have an easy upgrade path to the latest generation of instances.",
+    "guid": "fb1fd6f7e7e13a5414ff2afb2c7a5f7e9383ccf0",
+    "categories": [
+      ""
+    ],
+    "isoDate": "2020-04-10T21:02:37.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon EMR announces EMR release 6.0.0 with new major versions of Hadoop, Hive, HBase, Amazon Linux 2, and support for Docker",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-emr-announces-emr-release-6-with-new-major-versions-hadoop-hive-hbase-amazon-linux-2-docker/",
+    "pubDate": "Thu, 09 Apr 2020 19:31:11 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>We’re excited to announce Amazon EMR release 6.0.0 with support for new major versions of Hadoop, Hive, HBase, Amazon Linux 2 and support for packaging Spark environment dependencies with Docker. &nbsp;</p>",
+    "contentSnippet": "We’re excited to announce Amazon EMR release 6.0.0 with support for new major versions of Hadoop, Hive, HBase, Amazon Linux 2 and support for packaging Spark environment dependencies with Docker. &nbsp;",
+    "guid": "eab63dad62519780b3abf9b11b7c64b2088106ac",
+    "categories": [
+      "general:products/amazon-emr,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-09T19:31:11.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon EMR is now available in the AWS Local Zone in Los Angeles",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-emr-now-available-los-angeles/",
+    "pubDate": "Thu, 09 Apr 2020 19:04:13 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now launch <a href=\"/emr/\" target=\"_blank\">Amazon EMR</a> clusters in the <a href=\"/about-aws/global-infrastructure/localzones/\" target=\"_blank\">AWS Local Zone in Los Angeles (LA)</a>, California. Amazon EMR helps customers process vast amounts of data quickly and cost-effectively at scale. Using open source tools such as <a href=\"/emr/features/spark/\" target=\"_blank\">Apache Spark</a>, <a href=\"/emr/features/hive/\" target=\"_blank\">Apache Hive</a>, <a href=\"/emr/features/hbase/\" target=\"_blank\">Apache HBase</a>, <a href=\"https://aws.amazon.com/blogs/big-data/use-apache-flink-on-amazon-emr/\" target=\"_blank\">Apache Flink</a>, <a href=\"/emr/features/hudi/\" target=\"_blank\">Apache Hudi (Incubating)</a>, and <a href=\"/emr/features/presto/\" target=\"_blank\">Presto</a>, coupled with the dynamic scalability of <a href=\"/ec2/\" target=\"_blank\">Amazon EC2</a>, EMR gives analytical teams the engines and elasticity to run Petabyte-scale analysis for a fraction of the cost of traditional on-premises clusters. With support for AWS Local Zones, customers can now deploy their latency-sensitive big data applications close to their users in Los Angeles. The LA Local Zone is a new type of AWS infrastructure deployment that places compute, storage, and other select services closer to customers, giving developers the ability to run applications that require single-digit millisecond latencies to end-users in LA. &nbsp;</p>",
+    "contentSnippet": "You can now launch Amazon EMR clusters in the AWS Local Zone in Los Angeles (LA), California. Amazon EMR helps customers process vast amounts of data quickly and cost-effectively at scale. Using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi (Incubating), and Presto, coupled with the dynamic scalability of Amazon EC2, EMR gives analytical teams the engines and elasticity to run Petabyte-scale analysis for a fraction of the cost of traditional on-premises clusters. With support for AWS Local Zones, customers can now deploy their latency-sensitive big data applications close to their users in Los Angeles. The LA Local Zone is a new type of AWS infrastructure deployment that places compute, storage, and other select services closer to customers, giving developers the ability to run applications that require single-digit millisecond latencies to end-users in LA. &nbsp;",
+    "guid": "e56986c081b2865324fc1e317e921d69c895700b",
+    "categories": [
+      "general:products/amazon-emr,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-09T19:04:13.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "New AWS Elastic Beanstalk console now available ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/new-aws-elastic-beanstalk-console-now-available/",
+    "pubDate": "Thu, 09 Apr 2020 18:54:20 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>The new AWS Elastic Beanstalk console is now generally available. The new console makes it easier for you to use Elastic Beanstalk and simplifies the management of Applications and Environments. Send us your comments and suggestions using the feedback link in the new console. See <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/relnotes/release-2020-04-08-console-design.html\" target=\"_blank\">Release Notes</a> for additional details.</p>",
+    "contentSnippet": "The new AWS Elastic Beanstalk console is now generally available. The new console makes it easier for you to use Elastic Beanstalk and simplifies the management of Applications and Environments. Send us your comments and suggestions using the feedback link in the new console. See Release Notes for additional details.",
+    "guid": "17d7ab393cd9e83f1485b14011c62074500759cb",
+    "categories": [
+      "marketing:marchitecture/compute,general:products/aws-elastic-beanstalk,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-09T18:54:20.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon QuickSight dashboards are now denser with slick look and feel ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-quicksight-dashboards-now-denser/",
+    "pubDate": "Thu, 09 Apr 2020 20:57:26 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon QuickSight now supports cascading filter actions. You can use filter actions to select multiple data points in a dashboard and view the cumulative impacts of filtering those data points, across multiple datasets used to build the dashboard. For example, on a business dashboard revenue data and bar charts representing ‘revenue by industry’ and ‘revenue by category’, you can choose ‘Technology’ as industry from the first bar chart and Hardware as category from the second bar chart to filter the entire dashboard to show contributions for Hardware category within the Technology industry. See here to <a href=\"https://docs.aws.amazon.com/quicksight/latest/user/custom-actions.html\" target=\"_blank\">learn more</a>. &nbsp;</p>",
+    "contentSnippet": "Amazon QuickSight now supports cascading filter actions. You can use filter actions to select multiple data points in a dashboard and view the cumulative impacts of filtering those data points, across multiple datasets used to build the dashboard. For example, on a business dashboard revenue data and bar charts representing ‘revenue by industry’ and ‘revenue by category’, you can choose ‘Technology’ as industry from the first bar chart and Hardware as category from the second bar chart to filter the entire dashboard to show contributions for Hardware category within the Technology industry. See here to learn more. &nbsp;",
+    "guid": "59786f878860e99b5747e14b327752f6a8397c91",
+    "categories": [
+      "marketing:marchitecture/analytics,general:products/amazon-quicksight"
+    ],
+    "isoDate": "2020-04-09T20:57:26.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amplify Framework announces new, rearchitected UI Component and modular JavaScript libraries",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amplify-framework-announces-new-ui-component-library-and-modularized-javascript-library/",
+    "pubDate": "Mon, 13 Apr 2020 18:46:28 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>The <a href=\"/amplify/\" target=\"_blank\">Amplify Framework</a> is an open source project for building cloud-enabled mobile and web applications, consisting of libraries, UI components, and an interactive CLI toolchain. &nbsp;</p>",
+    "contentSnippet": "The Amplify Framework is an open source project for building cloud-enabled mobile and web applications, consisting of libraries, UI components, and an interactive CLI toolchain. &nbsp;",
+    "guid": "32e92903e21afc92592c77d2d5dd28c85f496175",
+    "categories": [
+      "general:products/aws-amplify,marketing:marchitecture/mobile-services"
+    ],
+    "isoDate": "2020-04-13T18:46:28.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS CodePipeline now available in the AWS GovCloud (US-West) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-codepipeline-now-available-in-aws-govcloud-us-region/",
+    "pubDate": "Fri, 10 Apr 2020 20:38:54 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS CodePipeline is now available in the <a href=\"/govcloud-us/\">AWS GovCloud (US-West) Region</a>. AWS CodePipeline is a fully managed <a href=\"/devops/continuous-delivery/\">continuous delivery</a> service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.<br /> </p>",
+    "contentSnippet": "AWS CodePipeline is now available in the AWS GovCloud (US-West) Region. AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates.",
+    "guid": "9f114f89a9908125b6b81ec37d75473be3d78fcc",
+    "categories": [
+      "general:products/aws-codepipeline,general:products/aws-govcloud-us,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-10T20:38:54.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "NICE DCV with a free 90-day demo license is now available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/nice-dcv-with-a-free-90-day-demo-license-is-now-available/",
+    "pubDate": "Thu, 09 Apr 2020 20:45:00 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>To help support customers working from home, Amazon Web Services (AWS) is releasing a special, limited-time version of NICE DCV with an automatic 90-day evaluation license. This limited-time release of NICE DCV with the 90-day evaluation license will be available for download and activation until May 31, 2020. All activations of the software after this date will default to the standard 30-day automatic evaluation license. <br /> </p>",
+    "contentSnippet": "To help support customers working from home, Amazon Web Services (AWS) is releasing a special, limited-time version of NICE DCV with an automatic 90-day evaluation license. This limited-time release of NICE DCV with the 90-day evaluation license will be available for download and activation until May 31, 2020. All activations of the software after this date will default to the standard 30-day automatic evaluation license.",
+    "guid": "031db57164b33016b5483a5d3b2cdcd4516159bb",
+    "categories": [
+      "marketing:marchitecture/compute"
+    ],
+    "isoDate": "2020-04-09T20:45:00.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Textract now reads Checkboxes and other Selection Elements more accurately",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-textract-now-reads-checkboxes-and-other-selection-elements-more-accurately/",
+    "pubDate": "Thu, 09 Apr 2020 19:20:36 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Textract is a machine learning service that makes it easy to extract text and data from virtually any document. One advantage of services like Textract is that customers benefit from continuous improvement over time. Today, we are pleased to announce quality enhancements that make Amazon Textract even more accurate.&nbsp;</p>",
+    "contentSnippet": "Amazon Textract is a machine learning service that makes it easy to extract text and data from virtually any document. One advantage of services like Textract is that customers benefit from continuous improvement over time. Today, we are pleased to announce quality enhancements that make Amazon Textract even more accurate.&nbsp;",
+    "guid": "50ac8fac51c9c62be1e8b286503f165a653d2e61",
+    "categories": [
+      "general:products/amazon-textract,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-09T19:20:36.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Launch Wizard now supports deployment of HANA based SAP applications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-launch-wizard-now-supports-deployment-of-hana-based-sap-applications/",
+    "pubDate": "Fri, 10 Apr 2020 20:14:05 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources on HANA based SAP systems without the need to manually identify and provision individual AWS resources. You input your application requirements, including HANA settings, SAP landscape settings, and deployment details on the service console, and Launch Wizard identifies the AWS resources to deploy and run your application. Launch Wizard provides an estimated cost of deployment, and lets you modify your resources and instantly view the updated cost assessment. When you approve your settings, Launch Wizard provisions and configures the selected resources in a few hours to create a fully-functioning production-ready SAP application. <br /> </p>",
+    "contentSnippet": "AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources on HANA based SAP systems without the need to manually identify and provision individual AWS resources. You input your application requirements, including HANA settings, SAP landscape settings, and deployment details on the service console, and Launch Wizard identifies the AWS resources to deploy and run your application. Launch Wizard provides an estimated cost of deployment, and lets you modify your resources and instantly view the updated cost assessment. When you approve your settings, Launch Wizard provisions and configures the selected resources in a few hours to create a fully-functioning production-ready SAP application.",
+    "guid": "faea47d07d5f45c427f38c67b10dc0dccdb49280",
+    "categories": [
+      "marketing:marchitecture/migration,partner:technology-expertise/sap"
+    ],
+    "isoDate": "2020-04-10T20:14:05.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Neptune now supports the T3.medium instance type",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-neptune-now-supports-the-t3-medium-instance-type/",
+    "pubDate": "Thu, 09 Apr 2020 15:43:24 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now launch the T3 instance type with <a href=\"https://aws.amazon.com/neptune\">Amazon Neptune</a> for development and test scenarios. <a href=\"https://aws.amazon.com/ec2/instance-types/t3/\">Amazon T3 instances</a> are the next generation burstable general-purpose instance type that provide a baseline level of CPU performance with the ability to burst CPU usage at any time for as long as required. T3 instances offer a balance of compute, memory, and network resources and are ideal for database workloads with moderate CPU usage that experience temporary spikes in use.</p>",
+    "contentSnippet": "You can now launch the T3 instance type with Amazon Neptune for development and test scenarios. Amazon T3 instances are the next generation burstable general-purpose instance type that provide a baseline level of CPU performance with the ability to burst CPU usage at any time for as long as required. T3 instances offer a balance of compute, memory, and network resources and are ideal for database workloads with moderate CPU usage that experience temporary spikes in use.",
+    "guid": "88731128b7a154c1244cbd7de492f54acb801a2d",
+    "categories": [
+      "general:products/amazon-neptune,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-09T15:43:24.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon ECS and AWS Fargate support for Amazon EFS File Systems now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-ecs-aws-fargate-support-amazon-efs-filesystems-generally-available/",
+    "pubDate": "Fri, 17 Apr 2020 16:07:51 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Elastic Container Service (ECS) tasks running on both Amazon Elastic Compute Cloud (EC2) and AWS Fargate can now mount Amazon Elastic File System (EFS) file systems. ECS tasks using EFS will automatically mount the file systems specified by the customer in the task definition and make them available to the containers in the task across all availability zones in the region. This enables persistent, shared storage to be defined and used at the task and container level in ECS.&nbsp;</p>",
+    "contentSnippet": "Amazon Elastic Container Service (ECS) tasks running on both Amazon Elastic Compute Cloud (EC2) and AWS Fargate can now mount Amazon Elastic File System (EFS) file systems. ECS tasks using EFS will automatically mount the file systems specified by the customer in the task definition and make them available to the containers in the task across all availability zones in the region. This enables persistent, shared storage to be defined and used at the task and container level in ECS.&nbsp;",
+    "guid": "aae48280a7acd38bd9006ccd3197b273dcb7d382",
+    "categories": [
+      "marketing:marchitecture/containers-and-deployment,general:products/amazon-ecs,general:products/aws-fargate,marketing:marchitecture/storage,general:products/amazon-efs"
+    ],
+    "isoDate": "2020-04-17T16:07:51.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon DynamoDB global tables are now available in the AWS China (Beijing) Region, operated by Sinnet, and the AWS China (Ningxia) Region, operated by NWCD",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-dynamodb-global-tables-are-now-available-in-the-aws-china-beijing-region-operated-by-sinnet-and-the-aws-china-ningxia-region-operated-by-nwcd/",
+    "pubDate": "Wed, 08 Apr 2020 23:32:40 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/dynamodb/global-tables/\" target=\"_blank\">Amazon DynamoDB global tables</a> are now available in the AWS China (Beijing) Region, operated by Sinnet, and the AWS China (Ningxia) Region, operated by NWCD. With DynamoDB global tables, you can create fully replicated tables across regions for disaster recovery and high availability of your DynamoDB tables. With this launch, you can now add a replica table in one AWS China Region to your existing DynamoDB table in the other AWS China Region. When you use DynamoDB global tables, you benefit from an enhanced 99.999% availability SLA at no additional cost. &nbsp;</p>",
+    "contentSnippet": "Amazon DynamoDB global tables are now available in the AWS China (Beijing) Region, operated by Sinnet, and the AWS China (Ningxia) Region, operated by NWCD. With DynamoDB global tables, you can create fully replicated tables across regions for disaster recovery and high availability of your DynamoDB tables. With this launch, you can now add a replica table in one AWS China Region to your existing DynamoDB table in the other AWS China Region. When you use DynamoDB global tables, you benefit from an enhanced 99.999% availability SLA at no additional cost. &nbsp;",
+    "guid": "cb67294f7e7c6eaf51fe6a90f71791b19652d205",
+    "categories": [
+      "general:products/amazon-dynamodb"
+    ],
+    "isoDate": "2020-04-08T23:32:40.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Migration Hub now automatically tags migration results for cost tracking",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-migration-hub-automatically-tags-migration-results-cost-tracking/",
+    "pubDate": "Wed, 08 Apr 2020 17:10:55 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Throughout a migration, you will want to compare on-premises infrastructure costs to AWS costs, so that you can track spend and adjust your plans to maximize the ROI of your migration project. Migration Hub’s automatic tagging helps you track costs of migrated resources and compare that to on-premises costs using Cost Allocation Tagging and AWS Cost Explorer. For migrations tracked using the Migration Hub, an AWS system tag is automatically applied to each migrated EC2 instance or AMI. AWS resources are tagged with the key aws:migrationhub:source-id and the tag value is the discovery server ID corresponding to the originating server. Migration Hub can be used to track migrations from CloudEndure, Server Migration Service, or other tooling using the AWS SDK/CLI.&nbsp;</p>",
+    "contentSnippet": "Throughout a migration, you will want to compare on-premises infrastructure costs to AWS costs, so that you can track spend and adjust your plans to maximize the ROI of your migration project. Migration Hub’s automatic tagging helps you track costs of migrated resources and compare that to on-premises costs using Cost Allocation Tagging and AWS Cost Explorer. For migrations tracked using the Migration Hub, an AWS system tag is automatically applied to each migrated EC2 instance or AMI. AWS resources are tagged with the key aws:migrationhub:source-id and the tag value is the discovery server ID corresponding to the originating server. Migration Hub can be used to track migrations from CloudEndure, Server Migration Service, or other tooling using the AWS SDK/CLI.&nbsp;",
+    "guid": "41e537033627e5afcc223bd9d439d4d416a62536",
+    "categories": [
+      "marketing:marchitecture/migration,general:products/aws-migration-hub"
+    ],
+    "isoDate": "2020-04-08T17:10:55.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Elastic Beanstalk adds API support for listing platform branches ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elastic-beanstalk-adds-api-support-for-listing-platform-branches/",
+    "pubDate": "Wed, 08 Apr 2020 22:00:23 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now use the AWS Elastic Beanstalk ListPlatformBranches API action that lists available Elastic Beanstalk platform branches and provides summary information about each platform branch. You can use the API action to query the platform state (Supported, Beta, Deprecated, Retired) of your Elastic Beanstalk environment. For more information on Platform Branch state, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platforms-glossary.html\" target=\"_blank\">Elastic Beanstalk Platforms Glossary</a> in the AWS Elastic Beanstalk Developer Guide. For details about the ListPlatformBranches API action, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/api/API_Types.html\" target=\"_blank\">ListPlatformBranches</a> in the AWS Elastic Beanstalk API Reference. See <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/relnotes/release-2020-04-08-branches.html\" target=\"_blank\">Release Notes</a> for additional details.</p>",
+    "contentSnippet": "You can now use the AWS Elastic Beanstalk ListPlatformBranches API action that lists available Elastic Beanstalk platform branches and provides summary information about each platform branch. You can use the API action to query the platform state (Supported, Beta, Deprecated, Retired) of your Elastic Beanstalk environment. For more information on Platform Branch state, see Elastic Beanstalk Platforms Glossary in the AWS Elastic Beanstalk Developer Guide. For details about the ListPlatformBranches API action, see ListPlatformBranches in the AWS Elastic Beanstalk API Reference. See Release Notes for additional details.",
+    "guid": "78a29e94713e27034be1b477f3dc91a6530d4783",
+    "categories": [
+      "marketing:marchitecture/developer-tools,marketing:marchitecture/compute,general:products/aws-elastic-beanstalk"
+    ],
+    "isoDate": "2020-04-08T22:00:23.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Fargate launches Platform Version 1.4",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-fargate-launches-platform-version-14/",
+    "pubDate": "Wed, 08 Apr 2020 19:45:19 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/fargate/\" target=\"_blank\">AWS Fargate</a>, a serverless compute engine for containers, launches new platform version 1.4.0. This latest version enables several new Fargate features of which some are highlighted below.&nbsp;Unless otherwise noted, the new features discussed in this post are relevant to the native Fargate platform and are directly consumable by the <a href=\"/ecs/\" target=\"_blank\">Amazon Elastic Container Service (ECS)</a> orchestrator. </p>",
+    "contentSnippet": "AWS Fargate, a serverless compute engine for containers, launches new platform version 1.4.0. This latest version enables several new Fargate features of which some are highlighted below.&nbsp;Unless otherwise noted, the new features discussed in this post are relevant to the native Fargate platform and are directly consumable by the Amazon Elastic Container Service (ECS) orchestrator.",
+    "guid": "bd070526e8a6960b95ff4fab95cc56249b41e475",
+    "categories": [
+      "general:products/aws-fargate,marketing:marchitecture/compute"
+    ],
+    "isoDate": "2020-04-08T19:45:19.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Local launch constraints are now generally available in AWS Service Catalog",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/local-launch-contraints-now-generally-available-in-aws-service-catalog/",
+    "pubDate": "Wed, 08 Apr 2020 22:16:51 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Service Catalog now supports local launch constraints. With this new feature, administrators can share products from one AWS account to other AWS accounts, and have those products launch locally in each account. In Service Catalog, this is referred to as a hub-and-spoke model of sharing approved IT services. This makes it easier for administrators to distribute and manage these services across multiple accounts, providing self-service access while staying compliant with organizational best practices and policies.<br /> </p>",
+    "contentSnippet": "AWS Service Catalog now supports local launch constraints. With this new feature, administrators can share products from one AWS account to other AWS accounts, and have those products launch locally in each account. In Service Catalog, this is referred to as a hub-and-spoke model of sharing approved IT services. This makes it easier for administrators to distribute and manage these services across multiple accounts, providing self-service access while staying compliant with organizational best practices and policies.",
+    "guid": "6a43a4edacb54d5074637396c82c45a69a1149dd",
+    "categories": [
+      "general:products/aws-service-catalog,marketing:marchitecture/management-and-governance"
+    ],
+    "isoDate": "2020-04-08T22:16:51.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Elemental MediaConnect and MediaLive add input failover features",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elemental-mediaconnect-medialive-add-input-failover-feature/",
+    "pubDate": "Wed, 08 Apr 2020 23:54:56 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/mediaconnect/\" target=\"_blank\">AWS Elemental MediaConnect</a>&nbsp;now supports failover between two live sources into a flow. If one source fails, MediaConnect can failover to the second source, increasing the resiliency of live video transport. This provides uninterrupted ingest and transport of live video streams by adding resilience and automatic failover. The SMPTE-2022-7 standard (seamless protection switching at the packet level) is used if the two sources are compliant, otherwise active/active failover is used. To learn more, please visit the&nbsp;<a href=\"https://docs.aws.amazon.com/mediaconnect/latest/ug/source-failover.html\" target=\"_blank\">MediaConnect User Guide</a>.</p>",
+    "contentSnippet": "AWS Elemental MediaConnect&nbsp;now supports failover between two live sources into a flow. If one source fails, MediaConnect can failover to the second source, increasing the resiliency of live video transport. This provides uninterrupted ingest and transport of live video streams by adding resilience and automatic failover. The SMPTE-2022-7 standard (seamless protection switching at the packet level) is used if the two sources are compliant, otherwise active/active failover is used. To learn more, please visit the&nbsp;MediaConnect User Guide.",
+    "guid": "3633d4074e006587a0b0e52ab20c9b4129527642",
+    "categories": [
+      "general:products/aws-elemental-mediaconnect,marketing:marchitecture/media-services,general:products/aws-elemental-medialive"
+    ],
+    "isoDate": "2020-04-08T23:54:56.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS Proxy with PostgreSQL Compatibility (Preview)  ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-proxy-with-postgresql-compatibility-preview/",
+    "pubDate": "Wed, 08 Apr 2020 21:59:10 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon RDS Proxy, a fully managed, highly available database proxy for <a href=\"/rds/\" target=\"_blank\">Amazon Relational Database Service (RDS)</a>, is now available in preview for Aurora PostgreSQL and RDS PostgreSQL. RDS Proxy makes applications more scalable, more resilient to database failures, and more secure.</p>",
+    "contentSnippet": "Amazon RDS Proxy, a fully managed, highly available database proxy for Amazon Relational Database Service (RDS), is now available in preview for Aurora PostgreSQL and RDS PostgreSQL. RDS Proxy makes applications more scalable, more resilient to database failures, and more secure.",
+    "guid": "5d09ad41c4b4c1c1a16955e1f6b2794b71749cc1",
+    "categories": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-08T21:59:10.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Create Amazon MSK clusters with T3 brokers for less than $2.50/day",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/create-amazon-msk-clusters-with-t3-brokers/",
+    "pubDate": "Wed, 08 Apr 2020 21:23:42 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now create <a href=\"/msk/\" target=\"_blank\">Amazon Managed Streaming for Apache Kafka</a> (Amazon MSK) clusters for <a href=\"/msk/pricing/\" target=\"_blank\">less than $2.50/day</a> using kafka.t3.small brokers. &nbsp;</p>",
+    "contentSnippet": "You can now create Amazon Managed Streaming for Apache Kafka (Amazon MSK) clusters for less than $2.50/day using kafka.t3.small brokers. &nbsp;",
+    "guid": "4b7e02428fe89abbba5b36a7615f4eb260402290",
+    "categories": [
+      "general:products/amazon-msk,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-08T21:23:42.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Managed Cassandra Service now enables you to manage access to resources based on tags",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-managed-cassandra-service-now-enables-you-to-manage-access-to-resources-based-on-tags/",
+    "pubDate": "Wed, 08 Apr 2020 18:20:56 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/mcs/\" target=\"_blank\">Amazon Managed Apache Cassandra Service</a> (MCS), a scalable, highly available, and managed Apache Cassandra–compatible database service, now enables you to manage access to resources based on tags.&nbsp;</p>",
+    "contentSnippet": "Amazon Managed Apache Cassandra Service (MCS), a scalable, highly available, and managed Apache Cassandra–compatible database service, now enables you to manage access to resources based on tags.&nbsp;",
+    "guid": "0b88ca2d54470fe6f72952e9a5084f6e423c9caf",
+    "categories": [
+      "marketing:marchitecture/databases,general:products/amazon-mcs"
+    ],
+    "isoDate": "2020-04-08T18:20:56.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Support for Manifest Filtering and Other Improvements Now Available with AWS Elemental MediaPackage",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elemental-mediapackage-adds-manifest-filtering/",
+    "pubDate": "Wed, 08 Apr 2020 20:58:53 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>With <a href=\"/mediapackage/\">AWS Elemental MediaPackage</a>, you can now use Manifest Filtering to customize video streams presented to specific devices based on their capabilities, or presented to specific end-user groups based on their subscriber status or language preferences. You can configure up to four filters that select tracks depending on audio language, audio sample rate, video codec, and video bitrate criteria. Filters can be combined to create highly targeted variants of the manifests in all supported formats, for live and VOD endpoints. This capability improves the overall viewing experience with customized and targeted video content tailored to specific audiences. For instructions on how to configure Manifest Filtering, please refer to the <a href=\"https://docs.aws.amazon.com/mediapackage/latest/ug/manifest-filtering.html\">documentation page</a>.<br /> </p>",
+    "contentSnippet": "With AWS Elemental MediaPackage, you can now use Manifest Filtering to customize video streams presented to specific devices based on their capabilities, or presented to specific end-user groups based on their subscriber status or language preferences. You can configure up to four filters that select tracks depending on audio language, audio sample rate, video codec, and video bitrate criteria. Filters can be combined to create highly targeted variants of the manifests in all supported formats, for live and VOD endpoints. This capability improves the overall viewing experience with customized and targeted video content tailored to specific audiences. For instructions on how to configure Manifest Filtering, please refer to the documentation page.",
+    "guid": "6f29fd0dc5141ba15ca2a4104472c6bcf8d3a59c",
+    "categories": [
+      "general:products/aws-elemental-mediapackage,marketing:marchitecture/media-services"
+    ],
+    "isoDate": "2020-04-08T20:58:53.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon VPC Traffic Mirroring now available in AWS Middle East (Bahrain) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-vpc-traffic-mirroring-now-available-in-aws-middle-east-bahrain-region/",
+    "pubDate": "Wed, 08 Apr 2020 17:10:37 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, Amazon Virtual Private Cloud (Amazon VPC) Traffic Mirroring is available in AWS Middle East (Bahrain) region. Amazon VPC Traffic Mirroring allows customers to replicate the network traffic from an EC2 instance within their VPC and forward that traffic to security and monitoring appliances for use cases such as content inspection, threat monitoring, and troubleshooting.&nbsp;</p>",
+    "contentSnippet": "Starting today, Amazon Virtual Private Cloud (Amazon VPC) Traffic Mirroring is available in AWS Middle East (Bahrain) region. Amazon VPC Traffic Mirroring allows customers to replicate the network traffic from an EC2 instance within their VPC and forward that traffic to security and monitoring appliances for use cases such as content inspection, threat monitoring, and troubleshooting.&nbsp;",
+    "guid": "e12133d734482873a2e56075e499f1e3f9623c98",
+    "categories": [
+      "general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
+    ],
+    "isoDate": "2020-04-08T17:10:37.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Detective is now available in the US West (N. California) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-detective-is-now-available-in-us-west-n-california-region/",
+    "pubDate": "Wed, 08 Apr 2020 20:44:51 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Detective is now available in the AWS US West (N. California) Region. You can now easily analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities in the AWS US West (N. California) region.<br /> </p>",
+    "contentSnippet": "Amazon Detective is now available in the AWS US West (N. California) Region. You can now easily analyze, investigate, and quickly identify the root cause of potential security issues or suspicious activities in the AWS US West (N. California) region.",
+    "guid": "4d2f2ee78f0252c3f0c4bd305fac881fcbe09ea2",
+    "categories": [
+      "marketing:marchitecture/security-identity-and-compliance,general:products/amazon-detective"
+    ],
+    "isoDate": "2020-04-08T20:44:51.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Elastic Beanstalk Announces General Availability of  Amazon Linux 2 Based Docker, Corretto, and Python Platforms",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elastic-beanstalk-announces-general-availability-of-amazon-linux-2-based-docker-corretto-and-python-platforms/",
+    "pubDate": "Wed, 08 Apr 2020 22:12:05 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now run your applications on AWS Elastic Beanstalk using the new generation of Docker, Corretto and Python Elastic Beanstalk platforms built on top of <a href=\"/amazon-linux-2/\">Amazon Linux 2</a> Operating System.</p>",
+    "contentSnippet": "You can now run your applications on AWS Elastic Beanstalk using the new generation of Docker, Corretto and Python Elastic Beanstalk platforms built on top of Amazon Linux 2 Operating System.",
+    "guid": "3fca6d6f32c304ed9601f3403a5e58484b538661",
+    "categories": [
+      "general:products/aws-elastic-beanstalk,marketing:marchitecture/compute,marketing:marchitecture/developer-tools,marketing:marchitecture/management-and-governance"
+    ],
+    "isoDate": "2020-04-08T22:12:05.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Support for Queue Hopping now available with AWS Elemental MediaConvert",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/support-for-queue-hopping-now-available-with-aws-elemental-mediaconvert/",
+    "pubDate": "Wed, 08 Apr 2020 23:18:27 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>In the past, when submitting an encoding job to an <a href=\"/mediaconvert/\">AWS Elemental MediaConvert</a> reserved queue, the job would stay in that queue until it could be processed. If the queue was busy, the job would wait to start until previous jobs completed. This presents a challenge for videos requiring strict turnaround times. To solve this, MediaConvert now has the ability to submit jobs using a feature called queue hopping. You specify the queue a job should start in and how long it should wait before hopping to a different queue. With queue hopping, you can avoid long wait times for transcoding jobs that are time-sensitive while also effectively utilizing your reserved transcoding slots. For example, a job can be submitted to a reserved queue with a wait time of 15 minutes; if the job has not started after that time, it can hop to an on-demand queue to start encoding. For more information about queue hopping, please read the <a href=\"https://docs.aws.amazon.com/mediaconvert/latest/ug/setting-up-queue-hopping-to-avoid-long-waits.html\">documentation</a>.</p>",
+    "contentSnippet": "In the past, when submitting an encoding job to an AWS Elemental MediaConvert reserved queue, the job would stay in that queue until it could be processed. If the queue was busy, the job would wait to start until previous jobs completed. This presents a challenge for videos requiring strict turnaround times. To solve this, MediaConvert now has the ability to submit jobs using a feature called queue hopping. You specify the queue a job should start in and how long it should wait before hopping to a different queue. With queue hopping, you can avoid long wait times for transcoding jobs that are time-sensitive while also effectively utilizing your reserved transcoding slots. For example, a job can be submitted to a reserved queue with a wait time of 15 minutes; if the job has not started after that time, it can hop to an on-demand queue to start encoding. For more information about queue hopping, please read the documentation.",
+    "guid": "ddf0405b999bc5e68baa926fdfa107d9e5dddd74",
+    "categories": [
+      "general:products/aws-elemental-mediaconvert,marketing:marchitecture/media-services"
+    ],
+    "isoDate": "2020-04-08T23:18:27.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Data Exchange achieves ISO Compliance",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-data-exchange-achieves-iso-compliance/",
+    "pubDate": "Wed, 08 Apr 2020 20:55:52 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/data-exchange/\">AWS Data Exchange</a> is now one of the AWS services under ISO Compliance for the <a href=\"/compliance/iso-9001-faqs/\">ISO 9001</a>, <a href=\"/compliance/iso-27001-faqs/\">ISO 27001</a>, <a href=\"/compliance/iso-27017-faqs/\">ISO 27017</a>, and <a href=\"/compliance/iso-27018-faqs/\">ISO 27018</a> standards. AWS maintains certifications through extensive audits of its controls to ensure that information security risks that affect the confidentiality, integrity, and availability of company and customer information are appropriately managed.&nbsp;</p>",
+    "contentSnippet": "AWS Data Exchange is now one of the AWS services under ISO Compliance for the ISO 9001, ISO 27001, ISO 27017, and ISO 27018 standards. AWS maintains certifications through extensive audits of its controls to ensure that information security risks that affect the confidentiality, integrity, and availability of company and customer information are appropriately managed.&nbsp;",
+    "guid": "f121b2b63d949a08924f5f16b9c3bcbd3d0a1997",
+    "categories": [
+      "marketing:marchitecture/analytics,general:products/aws-marketplace"
+    ],
+    "isoDate": "2020-04-08T20:55:52.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS for Oracle Supports Oracle Application Express (APEX) Version 19.2",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-for-oracle-supports-oracle-application-express-apex-version-19-2/",
+    "pubDate": "Wed, 08 Apr 2020 22:27:08 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/rds/oracle/\">Amazon RDS for Oracle</a> now supports 19.2 version of <a href=\"https://apex.oracle.com/en/\">Oracle Application Express</a> (APEX) for 11.2, 12.1, 12.2, 18c and 19c versions of Oracle Database. Using APEX, developers can build applications entirely within their web browser.&nbsp;</p>",
+    "contentSnippet": "Amazon RDS for Oracle now supports 19.2 version of Oracle Application Express (APEX) for 11.2, 12.1, 12.2, 18c and 19c versions of Oracle Database. Using APEX, developers can build applications entirely within their web browser.&nbsp;",
+    "guid": "404d0a6bd2e7d385829e4aba8b2ec59ddd87a988",
+    "categories": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-08T22:27:08.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Announcing support for fine-grained IAM permissions for PrivateLink interface endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/announcing-support-for-fine-grained-iam-permissions-for-privatelink-interface-endpoints/",
+    "pubDate": "Wed, 08 Apr 2020 22:28:32 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>VPC Interface endpoints (powered by AWS PrivateLink) and gateway endpoints now support additional IAM condition keys. With this launch, you can now use the IAM condition key <i>ec2: VpceServiceOwner</i> to restrict creation of interface endpoints to either AWS services or services owned by specific AWS accounts. You can also restrict endpoint creation to only specific services by using the <i>ec2: VpceServiceName</i> condition key in your IAM policies. Additionally, you can manage actions on your VPC endpoint and endpoints services based on existing tags on resources like VPCs and subnets using the <i>ec2:resourceTag</i> condition key.&nbsp;</p>",
+    "contentSnippet": "VPC Interface endpoints (powered by AWS PrivateLink) and gateway endpoints now support additional IAM condition keys. With this launch, you can now use the IAM condition key ec2: VpceServiceOwner to restrict creation of interface endpoints to either AWS services or services owned by specific AWS accounts. You can also restrict endpoint creation to only specific services by using the ec2: VpceServiceName condition key in your IAM policies. Additionally, you can manage actions on your VPC endpoint and endpoints services based on existing tags on resources like VPCs and subnets using the ec2:resourceTag condition key.&nbsp;",
+    "guid": "b2c34e359b87aff133cec9ce8dab4a750007c2f0",
+    "categories": [
+      "general:products/aws-iam,general:products/aws-privatelink,marketing:marchitecture/security-identity-and-compliance,marketing:marchitecture/networking-and-content-delivery"
+    ],
+    "isoDate": "2020-04-08T22:28:32.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Managed Cassandra Service (preview) now helps you coordinate increments and decrements to column values by using counters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-managed-cassandra-service-preview-now-helps-you-coordinate-increments-and-decrements-to-column-values-by-using-counters/",
+    "pubDate": "Tue, 07 Apr 2020 18:06:57 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/mcs/\" target=\"_blank\">Amazon Managed Apache Cassandra Service</a> (MCS), a scalable, highly available, and managed Apache Cassandra–compatible database service, now helps you coordinate increments and decrements to column values by using counters.&nbsp;</p>",
+    "contentSnippet": "Amazon Managed Apache Cassandra Service (MCS), a scalable, highly available, and managed Apache Cassandra–compatible database service, now helps you coordinate increments and decrements to column values by using counters.&nbsp;",
+    "guid": "b65c31e17171dbce6a0e5aaabd5143e31c33801a",
+    "categories": [
+      "marketing:marchitecture/databases,general:products/amazon-mcs"
+    ],
+    "isoDate": "2020-04-07T18:06:57.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Announcing the ability to run Windows Server license included instances on EC2 Dedicated Hosts ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/announcing-ability-to-run-windows-server-license-included-instances-on-ec2-dedicated-hosts/",
+    "pubDate": "Tue, 07 Apr 2020 19:34:07 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now run license included Windows Server instances on EC2 Dedicated Hosts, which enables you to use fully compliant Windows Server software licenses from AWS with a pay-as-you-go model. This new capability helps in scenarios where you have eligible SQL Server licenses to use on Dedicated Hosts but do not have accompanying Windows Server licenses to run the SQL Server workloads.&nbsp;</p>",
+    "contentSnippet": "You can now run license included Windows Server instances on EC2 Dedicated Hosts, which enables you to use fully compliant Windows Server software licenses from AWS with a pay-as-you-go model. This new capability helps in scenarios where you have eligible SQL Server licenses to use on Dedicated Hosts but do not have accompanying Windows Server licenses to run the SQL Server workloads.&nbsp;",
+    "guid": "ec0d8157ab1728d2b716434aee3e1eb82755dba4",
+    "categories": [
+      "general:products/amazon-ec2,marketing:marchitecture/compute"
+    ],
+    "isoDate": "2020-04-07T19:34:07.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Updates to AWS Deep Learning Containers for PyTorch 1.4.0 and MXNet 1.6.0",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/updates-to-aws-deep-learning-containers-for-pytorch-140-mxnet-160/",
+    "pubDate": "Wed, 08 Apr 2020 00:16:42 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>The <a href=\"/machine-learning/containers/\" target=\"_blank\">AWS Deep Learning Containers</a> are available with the latest framework versions of PyTorch 1.4.0 and MXNet 1.6.0. The PyTorch 1.4.0 upgrade includes newly added SageMaker Inference, SageMaker PyTorch Inference, and the latest version of SageMaker PyTorch Training. The MXNet 1.6.0 upgrade includes the latest version of GluonCV, SageMaker MXNet Training, SageMaker Inference and SageMaker MXNet Inference. You can launch the new versions of the Deep Learning Containers on Amazon SageMaker, Amazon Elastic Kubernetes Service (Amazon EKS), self-managed Kubernetes on Amazon EC2, and Amazon Elastic Container Service (Amazon ECS). For a complete list of frameworks and versions supported by the AWS Deep Learning Containers, see the release notes for <a href=\"/releasenotes/aws-deep-learning-containers-v3-2-for-pytorch/\" target=\"_blank\">PyTorch 1.4.0</a> and <a href=\"/releasenotes/aws-deep-learning-containers-v3-5-for-mxnet/\" target=\"_blank\">MXNet 1.6.0</a>.</p>",
+    "contentSnippet": "The AWS Deep Learning Containers are available with the latest framework versions of PyTorch 1.4.0 and MXNet 1.6.0. The PyTorch 1.4.0 upgrade includes newly added SageMaker Inference, SageMaker PyTorch Inference, and the latest version of SageMaker PyTorch Training. The MXNet 1.6.0 upgrade includes the latest version of GluonCV, SageMaker MXNet Training, SageMaker Inference and SageMaker MXNet Inference. You can launch the new versions of the Deep Learning Containers on Amazon SageMaker, Amazon Elastic Kubernetes Service (Amazon EKS), self-managed Kubernetes on Amazon EC2, and Amazon Elastic Container Service (Amazon ECS). For a complete list of frameworks and versions supported by the AWS Deep Learning Containers, see the release notes for PyTorch 1.4.0 and MXNet 1.6.0.",
+    "guid": "6bf2630634b0f0d4deaf5e49a510d6021f4b1946",
+    "categories": [
+      "general:products/aws-deep-learning-containers,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-08T00:16:42.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Cognito Identity Pools now supports Sign in with Apple ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cognito-identity-pools-now-supports-sign-in-with-apple/",
+    "pubDate": "Tue, 07 Apr 2020 16:10:39 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Cognito Identity Pools now supports Sign in with Apple, providing another social identity provider for customers who use Cognito for receiving temporary AWS credentials. This feature is available now in Amazon Cognito Identity Pools with no additional cost.&nbsp;</p>",
+    "contentSnippet": "Amazon Cognito Identity Pools now supports Sign in with Apple, providing another social identity provider for customers who use Cognito for receiving temporary AWS credentials. This feature is available now in Amazon Cognito Identity Pools with no additional cost.&nbsp;",
+    "guid": "914745db458f0ed6e0737d44679b5ad3e246977b",
+    "categories": [
+      "general:products/amazon-cognito,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-07T16:10:39.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "New Trailhead Training Content: Learn the AWS Cloud Practitioner Essentials",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/new-trailhead-training-content-learn-the-aws-cloud-practitioner-essentials/",
+    "pubDate": "Mon, 13 Apr 2020 17:28:29 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Training and Certification is excited to announce content updates to our <i>Learn the AWS Cloud Practitioner Essentials</i> “trail” on Trailhead by Salesforce. Built by the experts at AWS, this trail is recommended for those who are new to the AWS Cloud or who are looking to build their AWS Cloud skills. It can help learners further explore cloud concepts, AWS services, security, architecture, pricing, and support. This trail also helps you prepare for the AWS Certified Cloud Practitioner exam, which validates overall understanding of the AWS Cloud with an industry-recognized credential that can help grow your career. &nbsp;</p>",
+    "contentSnippet": "AWS Training and Certification is excited to announce content updates to our Learn the AWS Cloud Practitioner Essentials “trail” on Trailhead by Salesforce. Built by the experts at AWS, this trail is recommended for those who are new to the AWS Cloud or who are looking to build their AWS Cloud skills. It can help learners further explore cloud concepts, AWS services, security, architecture, pricing, and support. This trail also helps you prepare for the AWS Certified Cloud Practitioner exam, which validates overall understanding of the AWS Cloud with an industry-recognized credential that can help grow your career. &nbsp;",
+    "guid": "6a2fd2b09164a967fe9307e5875ebc088e997af0",
+    "categories": [
+      "marketing:marchitecture/training-and-certification"
+    ],
+    "isoDate": "2020-04-13T17:28:29.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "New Classroom Course: AWS Security Essentials",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/new-classroom-course-aws-security-essentials/",
+    "pubDate": "Tue, 07 Apr 2020 19:54:29 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>We are excited to announce the launch of <i>AWS Security Essentials</i>, a new one-day, instructor-led classroom course.</p>",
+    "contentSnippet": "We are excited to announce the launch of AWS Security Essentials, a new one-day, instructor-led classroom course.",
+    "guid": "26575fb6ba164cdb43fab7bd605ddde151f802ce",
+    "categories": [
+      "marketing:marchitecture/training-and-certification"
+    ],
+    "isoDate": "2020-04-07T19:54:29.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Managed Blockchain now supports Amazon CloudWatch Logs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-managed-blockchain-now-supports-amazon-cloudwatch-logs/",
+    "pubDate": "Tue, 07 Apr 2020 18:04:41 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/managed-blockchain/\">Amazon Managed Blockchain</a> now has support to publish Hyperledger Fabric peer node, chaincode, and certificate authority (CA) logs to Amazon CloudWatch Logs. You can use these logs to troubleshoot during chaincode development and maintain visibility into network activity and errors. CloudWatch Logs enables you to monitor, store and access log files from all your applications and AWS services in a single, highly scalable service. Additionally, you can set up and take actions on Amazon CloudWatch alarms triggered from logging events.<br /> </p>",
+    "contentSnippet": "Amazon Managed Blockchain now has support to publish Hyperledger Fabric peer node, chaincode, and certificate authority (CA) logs to Amazon CloudWatch Logs. You can use these logs to troubleshoot during chaincode development and maintain visibility into network activity and errors. CloudWatch Logs enables you to monitor, store and access log files from all your applications and AWS services in a single, highly scalable service. Additionally, you can set up and take actions on Amazon CloudWatch alarms triggered from logging events.",
+    "guid": "660305b7aec82a7538633fc85cd887f0af5a8734",
+    "categories": [
+      "general:products/amazon-managed-blockchain,marketing:marchitecture/blockchain,general:products/aws-blockchain"
+    ],
+    "isoDate": "2020-04-07T18:04:41.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Transit Gateway now Supports Inter-Region Peering in 11 additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-transit-gateway-now-supports-inter-region-peering-in-11-additional-regions/",
+    "pubDate": "Tue, 07 Apr 2020 23:09:01 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Transit Gateway now supports the ability to establish peering connections between Transit Gateways in 11 additional AWS Regions. Transit Gateway is a service that enables customers to connect thousands of Amazon Virtual Private Clouds (Amazon VPCs) and their on-premises networks using a single gateway. With AWS Transit Gateway, customers only have to create and manage a single connection from a central regional gateway to each Amazon VPC, on-premises data center, or remote office across their networks. <br /> </p>",
+    "contentSnippet": "AWS Transit Gateway now supports the ability to establish peering connections between Transit Gateways in 11 additional AWS Regions. Transit Gateway is a service that enables customers to connect thousands of Amazon Virtual Private Clouds (Amazon VPCs) and their on-premises networks using a single gateway. With AWS Transit Gateway, customers only have to create and manage a single connection from a central regional gateway to each Amazon VPC, on-premises data center, or remote office across their networks.",
+    "guid": "e2f45301240f9454a34180713b3b4a4f202b4159",
+    "categories": [
+      "general:products/aws-transit-gateway,general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
+    ],
+    "isoDate": "2020-04-07T23:09:01.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "VPC Input and Output Support now available with AWS Elemental MediaConnect",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/vpc-input-and-output-support-now-available-with-aws-elemental-mediaconnect/",
+    "pubDate": "Tue, 07 Apr 2020 21:02:13 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Support for transporting live video over a VPC (Virtual Private Cloud) is now available with <a href=\"/mediaconnect/\">AWS Elemental MediaConnect</a>. You can simplify hybrid cloud-based transport workflows by sending video to and from MediaConnect using a VPC. The new VPC feature is also compatible with <a href=\"https://aws.amazon.com/directconnect/\">AWS Direct Connect</a> infrastructure configured with private virtual interfaces (VIF), supporting the ingest and egress of content via private networking. To learn more, please visit the <a href=\"https://docs.aws.amazon.com/mediaconnect/latest/ug/vpc-interfaces.html\">documentation pages</a>.</p>",
+    "contentSnippet": "Support for transporting live video over a VPC (Virtual Private Cloud) is now available with AWS Elemental MediaConnect. You can simplify hybrid cloud-based transport workflows by sending video to and from MediaConnect using a VPC. The new VPC feature is also compatible with AWS Direct Connect infrastructure configured with private virtual interfaces (VIF), supporting the ingest and egress of content via private networking. To learn more, please visit the documentation pages.",
+    "guid": "62b0e3e71cc35bd765d492cc24cde59fffef2e61",
+    "categories": [
+      "marketing:marchitecture/compute,general:products/amazon-vpc,marketing:marchitecture/media-services,general:products/aws-elemental-mediaconnect"
+    ],
+    "isoDate": "2020-04-07T21:02:13.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Introducing Amazon Chime Proxy Phone Sessions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/introducing-amazon-chime-proxy-phone-sessions/",
+    "pubDate": "Tue, 07 Apr 2020 23:06:38 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Chime proxy phone sessions let you provide two users with a shared phone number to communicate via voice or text for up to 12 hours without revealing personal phone numbers. When users call or message the provided phone number, they are connected to the other party and their private phone numbers are replaced with the shared number in Caller ID. Personal phone numbers are not displayed, a method often called number masking. With proxy phone sessions, a food delivery service can allow a delivery driver and customer to contact each other for the duration of the delivery period to get information like a gate code or other special instructions. Proxy phone sessions help protect user privacy and keep transactions on your service. Numbers are available on-demand, so developers don't have to calculate how many numbers they will need for different locations, or pay for extra numbers they do not use.&nbsp;</p>",
+    "contentSnippet": "Amazon Chime proxy phone sessions let you provide two users with a shared phone number to communicate via voice or text for up to 12 hours without revealing personal phone numbers. When users call or message the provided phone number, they are connected to the other party and their private phone numbers are replaced with the shared number in Caller ID. Personal phone numbers are not displayed, a method often called number masking. With proxy phone sessions, a food delivery service can allow a delivery driver and customer to contact each other for the duration of the delivery period to get information like a gate code or other special instructions. Proxy phone sessions help protect user privacy and keep transactions on your service. Numbers are available on-demand, so developers don't have to calculate how many numbers they will need for different locations, or pay for extra numbers they do not use.&nbsp;",
+    "guid": "6cd40e37ce15555b1ff035785aecd68af8dd0c0f",
+    "categories": [
+      "general:products/amazon-chime,marketing:marchitecture/business-productivity"
+    ],
+    "isoDate": "2020-04-07T23:06:38.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS DeepLens launches new tutorials website and adds supports for Python 3",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deeplens-launches-new-tutorials-website-adds-support-for-python-3/",
+    "pubDate": "Tue, 07 Apr 2020 21:38:10 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>We are pleased to launch a <a href=\"http://www.awsdeeplens.recipes/\" target=\"_blank\">new website</a> with curated tutorials for AWS DeepLens. In addition to our existing tutorials (Worker Safety and Coffee Counter), we added a new tutorial (Trash Sorter) that walks you through how to train a custom image classification model on your own data and deploy it to DeepLens. We will continue adding tutorials to show you how to use a variety of computer vision and machine learning (ML) techniques to level up your ML skills with DeepLens.</p>",
+    "contentSnippet": "We are pleased to launch a new website with curated tutorials for AWS DeepLens. In addition to our existing tutorials (Worker Safety and Coffee Counter), we added a new tutorial (Trash Sorter) that walks you through how to train a custom image classification model on your own data and deploy it to DeepLens. We will continue adding tutorials to show you how to use a variety of computer vision and machine learning (ML) techniques to level up your ML skills with DeepLens.",
+    "guid": "38fc0a441e2a9fa4b541fb0360ae6525d7843f53",
+    "categories": [
+      "general:products/aws-deeplens,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-07T21:38:10.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amplify CLI adds support for additional Lambda runtimes (Java, Go, .NET and Python) and Lambda cron jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amplify-cli-adds-support-for-additional-lambda-runtimes-and-cron-jobs/",
+    "pubDate": "Mon, 06 Apr 2020 16:35:38 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>With this release, Amplify CLI makes it easy to create Lambda functions running on Java, Go, .NET and Python runtimes with sample code and a guided creation, update and deployment process. Refer to a full guide for how to create functions with the new runtimes in&nbsp;our <a href=\"https://docs.amplify.aws/cli/function\" target=\"_blank\">documentation</a>.</p>",
+    "contentSnippet": "With this release, Amplify CLI makes it easy to create Lambda functions running on Java, Go, .NET and Python runtimes with sample code and a guided creation, update and deployment process. Refer to a full guide for how to create functions with the new runtimes in&nbsp;our documentation.",
+    "guid": "e4df735f536631d0ea02ecdb265c011b8d8fc08f",
+    "categories": [
+      "marketing:marchitecture/developer-tools,marketing:marchitecture/mobile-services,general:products/aws-amplify"
+    ],
+    "isoDate": "2020-04-06T16:35:38.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Redshift now supports changing node types within minutes with elastic resize",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-redshift-now-supports-changing-node-types-within-minutes-with-elastic-resize/",
+    "pubDate": "Mon, 06 Apr 2020 16:26:57 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Redshift now supports elastic resize across node types. Customers can change node types within minutes and with one simple operation using elastic resize.&nbsp;</p>",
+    "contentSnippet": "Amazon Redshift now supports elastic resize across node types. Customers can change node types within minutes and with one simple operation using elastic resize.&nbsp;",
+    "guid": "df147ea17d9084f42394d502501cbe632c765c19",
+    "categories": [
+      "marketing:marchitecture/analytics,general:products/amazon-redshift"
+    ],
+    "isoDate": "2020-04-06T16:26:57.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS announces the Migration Acceleration Program for Windows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-announces-migration-acceleration-program-for-windows/",
+    "pubDate": "Mon, 06 Apr 2020 21:47:35 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS now offers the Migration Acceleration Program (MAP) for Windows. MAP for Windows provides services, best practices, and tools to help our customers save costs, accelerate their migrations and modernize their Windows workloads on AWS.&nbsp;</p>",
+    "contentSnippet": "AWS now offers the Migration Acceleration Program (MAP) for Windows. MAP for Windows provides services, best practices, and tools to help our customers save costs, accelerate their migrations and modernize their Windows workloads on AWS.&nbsp;",
+    "guid": "d89d3e54552d3971792601560df7d385305bbeb8",
+    "categories": [
+      "general:products/amazon-ec2,marketing:marchitecture/compute"
+    ],
+    "isoDate": "2020-04-06T21:47:35.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Personalize now provides scores for recommended items",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-personalize-now-provides-scores-for-recommended-items/",
+    "pubDate": "Mon, 06 Apr 2020 20:45:29 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"http://docs.aws.amazon.com/personalize\" target=\"_blank\">Amazon Personalize</a>&nbsp;enables you to personalize your website, app, ads, emails, and more, using the same machine learning technology as used by Amazon.com, without requiring any prior machine learning experience. Using Amazon Personalize, you can generate personalized recommendations for your users through a simple API interface. We are pleased to announce that Amazon Personalize now provides recommendations scores with each personalized recommendation. These scores can help you understand the relative difference in the relevancy of recommendations, and help you apply additional business logic on the recommendations, such as filtering out recommendations below a threshold or balancing relevancy with other business objectives such as displaying sponsored content. You can retrieve the scores along with the recommendations through the GetRecommendations or the GetPersonalizedRanking APIs, the Personalize console, or through a Batch Inference job. To learn more about this feature, visit our <a href=\"https://aws.amazon.com/blogs/machine-learning/introducing-recommendation-scores-in-amazon-personalize/\" target=\"_blank\">blog</a>.</p>",
+    "contentSnippet": "Amazon Personalize&nbsp;enables you to personalize your website, app, ads, emails, and more, using the same machine learning technology as used by Amazon.com, without requiring any prior machine learning experience. Using Amazon Personalize, you can generate personalized recommendations for your users through a simple API interface. We are pleased to announce that Amazon Personalize now provides recommendations scores with each personalized recommendation. These scores can help you understand the relative difference in the relevancy of recommendations, and help you apply additional business logic on the recommendations, such as filtering out recommendations below a threshold or balancing relevancy with other business objectives such as displaying sponsored content. You can retrieve the scores along with the recommendations through the GetRecommendations or the GetPersonalizedRanking APIs, the Personalize console, or through a Batch Inference job. To learn more about this feature, visit our blog.",
+    "guid": "eae2a6f3f2b713958320cd1f6707647711427abc",
+    "categories": [
+      "general:products/amazon-personalize,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-06T20:45:29.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS now supports MariaDB 10.4",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-now-supports-mariadb-10-4/",
+    "pubDate": "Mon, 06 Apr 2020 20:15:53 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/rds/mariadb/\">Amazon RDS for MariaDB</a> now supports MariaDB version 10.4 in all AWS Regions. 10.4 is the latest major version release of MariaDB offering new functionality and enhancements for better performance, reliability, security, and manageability. &nbsp;</p>",
+    "contentSnippet": "Amazon RDS for MariaDB now supports MariaDB version 10.4 in all AWS Regions. 10.4 is the latest major version release of MariaDB offering new functionality and enhancements for better performance, reliability, security, and manageability. &nbsp;",
+    "guid": "04f3e42d76b8d0db4885ece19af979b5eb75d1e8",
+    "categories": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-06T20:15:53.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Elastic Beanstalk Launches support for AWS PrivateLink",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-elastic-beanstalk-launches-support-for-aws-privatelink/",
+    "pubDate": "Mon, 06 Apr 2020 20:53:23 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>You can now use <a href=\"/privatelink/\" target=\"_blank\">AWS PrivateLink</a> to privately access AWS Elastic Beanstalk APIs from your <a href=\"/vpc/\" target=\"_blank\">Amazon Virtual Private Cloud</a> (Amazon VPC) without using public IPs and without requiring the traffic to traverse across the Internet. This includes the ability to receive <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/health-enhanced.html\" target=\"_blank\">Enhanced Health monitoring</a> metrics from your application. &nbsp;</p>",
+    "contentSnippet": "You can now use AWS PrivateLink to privately access AWS Elastic Beanstalk APIs from your Amazon Virtual Private Cloud (Amazon VPC) without using public IPs and without requiring the traffic to traverse across the Internet. This includes the ability to receive Enhanced Health monitoring metrics from your application. &nbsp;",
+    "guid": "8ba64533c030406e45950ebb2d3d306f976f9b1c",
+    "categories": [
+      "marketing:marchitecture/compute,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-06T20:53:23.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Serverless Application Repository allows sharing public applications from all commercial AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-serverless-application-repository-allows-sharing-public-applications-from-all-commercial-aws-regions/",
+    "pubDate": "Fri, 03 Apr 2020 23:27:05 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Authors who publish serverless applications to the AWS Serverless Application Repository (SAR) can now make their applications publicly available from all commercial AWS regions (except China) where the service is available.<br /> </p>",
+    "contentSnippet": "Authors who publish serverless applications to the AWS Serverless Application Repository (SAR) can now make their applications publicly available from all commercial AWS regions (except China) where the service is available.",
+    "guid": "bd656f231f2cf9c36d5955083ee2f0d12ec49116",
+    "categories": [
+      "general:products/aws-serverless-application-repository,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-03T23:27:05.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS RoboMaker now supports configurable Simulation Unit limit",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-robomaker-now-supports-configurable-simulation-unit-limit/",
+    "pubDate": "Fri, 03 Apr 2020 21:01:13 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/robomaker/\">AWS RoboMaker</a>, a service that makes it easy to run robotics simulations at cloud scale, now supports configurable Simulation Unit limit, to help control robotics application testing costs. With AWS RoboMaker simulation, you only pay for the time your simulation job takes to run, and you are charged an hourly rate based on the number of Simulation Units (or SUs) required to run your simulation job – which you can now limit.<br /> </p>",
+    "contentSnippet": "AWS RoboMaker, a service that makes it easy to run robotics simulations at cloud scale, now supports configurable Simulation Unit limit, to help control robotics application testing costs. With AWS RoboMaker simulation, you only pay for the time your simulation job takes to run, and you are charged an hourly rate based on the number of Simulation Units (or SUs) required to run your simulation job – which you can now limit.",
+    "guid": "4f2b31b77fbe5513cb822087a9de3ed52d6a4c19",
+    "categories": [
+      "general:products/aws-robomaker,marketing:marchitecture/robotics"
+    ],
+    "isoDate": "2020-04-03T21:01:13.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS IoT Device Defender Now Available in the AWS China (Beijing) Region, operated by Sinnet, and the AWS China (Ningxia) Region, operated by NWCD",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-iot-device-defender-now-available-in-the-aws-china-region/",
+    "pubDate": "Fri, 03 Apr 2020 21:33:38 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS IoT Device Defender is now available in the AWS China (Beijing) Region, operated by Sinnet and the AWS China (Ningxia) Region, operated by NWCD. AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. It continuously audits device configurations for security vulnerabilities. It also continuously monitors security metrics from devices and AWS IoT Core for deviations from what you have defined as appropriate behaviors for each device. AWS IoT Device Defender publishes alerts to AWS IoT Console, Amazon CloudWatch, and Amazon SNS when an audit fails or when behavior anomalies are detected. AWS IoT Device Defender also supports the ability for customers to use predefined mitigation actions to respond to audit findings and apply them at scale. &nbsp;</p>",
+    "contentSnippet": "AWS IoT Device Defender is now available in the AWS China (Beijing) Region, operated by Sinnet and the AWS China (Ningxia) Region, operated by NWCD. AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. It continuously audits device configurations for security vulnerabilities. It also continuously monitors security metrics from devices and AWS IoT Core for deviations from what you have defined as appropriate behaviors for each device. AWS IoT Device Defender publishes alerts to AWS IoT Console, Amazon CloudWatch, and Amazon SNS when an audit fails or when behavior anomalies are detected. AWS IoT Device Defender also supports the ability for customers to use predefined mitigation actions to respond to audit findings and apply them at scale. &nbsp;",
+    "guid": "15150a8191c9bb32cb84fce3c27c7dc5e50993a2",
+    "categories": [
+      "general:products/aws-iot,marketing:marchitecture/internet-of-things,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-03T21:33:38.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Glue now supports reading and writing to Amazon DocumentDB (with MongoDB compatibility) and MongoDB collections using Glue Spark ETL jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-glue-now-supports-reading-from-amazon-documentdb-and-mongodb-tables/",
+    "pubDate": "Fri, 03 Apr 2020 23:51:51 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, you can use <a href=\"https://docs.aws.amazon.com/glue/latest/dg/add-job.html\">Glue Spark ETL jobs</a> to read, transform, and load data from <a href=\"/documentdb/\">Amazon DocumentDB (with MongoDB compatibility)</a> and <a href=\"https://www.mongodb.com/\">MongoDB</a> collections into services such as Amazon S3 and Amazon Redshift for downstream analytics.<br /> </p>",
+    "contentSnippet": "Starting today, you can use Glue Spark ETL jobs to read, transform, and load data from Amazon DocumentDB (with MongoDB compatibility) and MongoDB collections into services such as Amazon S3 and Amazon Redshift for downstream analytics.",
+    "guid": "855db8fc804bfe34f613867f71e2cfd40d5a66e0",
+    "categories": [
+      "general:products/aws-glue,marketing:marchitecture/analytics,general:products/amazon-documentdb,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-03T23:51:51.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS Glue now supports the ability to create new tables, update schema and partitions in your Glue Data Catalog from Glue Spark ETL jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-glue-now-supports-the-ability-to-update-partitions-from-glue-spark-etl-jobs/",
+    "pubDate": "Fri, 03 Apr 2020 23:49:02 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Glue now supports the ability to create new tables and update the schema in the Glue Data Catalog from Glue Spark ETL jobs. Previously, you had to run Glue crawlers to create new tables, modify schema or add new partitions to existing tables after running your Glue ETL jobs resulting in additional cost and time.<br /> </p>",
+    "contentSnippet": "AWS Glue now supports the ability to create new tables and update the schema in the Glue Data Catalog from Glue Spark ETL jobs. Previously, you had to run Glue crawlers to create new tables, modify schema or add new partitions to existing tables after running your Glue ETL jobs resulting in additional cost and time.",
+    "guid": "acf879db974704a0e2ccc736568185807ec8b7f0",
+    "categories": [
+      "general:products/aws-glue,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-03T23:49:02.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon RDS for SQL Server now supports In-Region Read Replicas",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rds-for-sql-server-now-supports-in-region-read-replicas/",
+    "pubDate": "Fri, 03 Apr 2020 18:38:25 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, <a href=\"/rds/sqlserver/\">Amazon RDS for SQL Server</a> supports read replicas using Distributed Availability Groups within an AWS Region. Amazon RDS for SQL Server makes it easy to create replicas in the same AWS Region as the primary DB instance by fully managing the configuration of the Distributed Availability Group and maintaining secure network connections between a primary DB instance and its replicas.&nbsp;</p>",
+    "contentSnippet": "Starting today, Amazon RDS for SQL Server supports read replicas using Distributed Availability Groups within an AWS Region. Amazon RDS for SQL Server makes it easy to create replicas in the same AWS Region as the primary DB instance by fully managing the configuration of the Distributed Availability Group and maintaining secure network connections between a primary DB instance and its replicas.&nbsp;",
+    "guid": "bdf27a5be5dbdb47a587764caa36252033e1dc14",
+    "categories": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-03T18:38:25.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS IoT Device Tester now supports automatic updates for test suites",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-iot-device-tester-now-supports-automatic-updates-for-test-suites/",
+    "pubDate": "Fri, 03 Apr 2020 17:50:35 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/freertos/device-tester/\" target=\"_blank\">AWS IoT Device Tester for FreeRTOS</a> and <a href=\"/greengrass/device-tester/\" target=\"_blank\">AWS IoT Device Tester for AWS IoT Greengrass</a> now support automatic updates for test suites.</p>",
+    "contentSnippet": "AWS IoT Device Tester for FreeRTOS and AWS IoT Device Tester for AWS IoT Greengrass now support automatic updates for test suites.",
+    "guid": "027efa9fbf765860e0fcf61ae129d7bb94523d27",
+    "categories": [
+      "marketing:marchitecture/internet-of-things"
+    ],
+    "isoDate": "2020-04-03T17:50:35.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon GameLift in 2020 – Major update now available in preview",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-gamelift-2020-update-now-available-in-preview/",
+    "pubDate": "Fri, 03 Apr 2020 00:46:45 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon GameLift, a managed service for session-based multiplayer games that leverages the power and reliability of AWS, enables game developers to deploy, operate, and scale dedicated low-cost servers. Since 2016, some of the largest game companies in the world, such as Ubisoft, Behaviour Interactive, and Bethesda, trust GameLift to maximize cost savings while scaling their multiplayer experiences.</p>",
+    "contentSnippet": "Amazon GameLift, a managed service for session-based multiplayer games that leverages the power and reliability of AWS, enables game developers to deploy, operate, and scale dedicated low-cost servers. Since 2016, some of the largest game companies in the world, such as Ubisoft, Behaviour Interactive, and Bethesda, trust GameLift to maximize cost savings while scaling their multiplayer experiences.",
+    "guid": "4f5b289ae6c088f748c0dae9eeed138a0d0ebb71",
+    "categories": [
+      "general:products/amazon-gamedev,general:products/amazon-gamelift,general:use-case/gaming,marketing:audience/developer,marketing:benefits-realized/flexibility,marketing:benefits-realized/lower-cost,marketing:industry,marketing:industry/gaming"
+    ],
+    "isoDate": "2020-04-03T00:46:45.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CloudWatch Logs Insights now available in AWS GovCloud (US-West) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-logs-insights-now-available-us-govcloud-uswest-region/",
+    "pubDate": "Thu, 02 Apr 2020 20:44:03 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS announces the availability of Amazon CloudWatch Logs Insights, a fully integrated, interactive, and pay-as-you-go log analytics service for CloudWatch in <a href=\"/govcloud-us/\" target=\"_blank\">AWS GovCloud (US-West)</a> Region. CloudWatch Logs Insights enables you to explore, analyze, and visualize your logs instantly, allowing you to troubleshoot operational problems with ease. With Logs Insights, you only pay for the queries you run. Logs Insights scales with your log volume and query complexity giving you answers in seconds. In addition, you can publish log-based metrics, create alarms, and correlate logs and metrics together in CloudWatch Dashboards for complete operational visibility. &nbsp;</p>",
+    "contentSnippet": "AWS announces the availability of Amazon CloudWatch Logs Insights, a fully integrated, interactive, and pay-as-you-go log analytics service for CloudWatch in AWS GovCloud (US-West) Region. CloudWatch Logs Insights enables you to explore, analyze, and visualize your logs instantly, allowing you to troubleshoot operational problems with ease. With Logs Insights, you only pay for the queries you run. Logs Insights scales with your log volume and query complexity giving you answers in seconds. In addition, you can publish log-based metrics, create alarms, and correlate logs and metrics together in CloudWatch Dashboards for complete operational visibility. &nbsp;",
+    "guid": "960034734695a272c887c27fa82b30f4c21a7303",
+    "categories": [
+      "general:products/aws-govcloud-us,general:products/amazon-cloudwatch-logs,marketing:marchitecture/management-and-governance"
+    ],
+    "isoDate": "2020-04-02T20:44:03.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CloudWatch Contributor Insights for Amazon DynamoDB is now available in the AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-contributor-insights-for-amazon-dynamodb-is-now-available-in-the-aws-govcloud-us-regions/",
+    "pubDate": "Thu, 02 Apr 2020 20:36:35 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon CloudWatch Contributor Insights for DynamoDB is now available in the&nbsp;<a href=\"/govcloud-us/\" target=\"_blank\">AWS GovCloud (US) Regions</a>. CloudWatch Contributor Insights for DynamoDB is a diagnostic tool that provides an at-a-glance view of your DynamoDB tables’ traffic trends and helps you identify your tables’ most frequently accessed keys (also known as hot keys). You can monitor each table’s item access patterns continuously and use CloudWatch Contributor Insights to generate graphs and visualizations of the table’s activity. Using this information, you can better understand the top drivers of your application’s traffic and respond appropriately to unsuccessful requests.</p>",
+    "contentSnippet": "Amazon CloudWatch Contributor Insights for DynamoDB is now available in the&nbsp;AWS GovCloud (US) Regions. CloudWatch Contributor Insights for DynamoDB is a diagnostic tool that provides an at-a-glance view of your DynamoDB tables’ traffic trends and helps you identify your tables’ most frequently accessed keys (also known as hot keys). You can monitor each table’s item access patterns continuously and use CloudWatch Contributor Insights to generate graphs and visualizations of the table’s activity. Using this information, you can better understand the top drivers of your application’s traffic and respond appropriately to unsuccessful requests.",
+    "guid": "2595439647239e079db84a4f91abced005eaebf2",
+    "categories": [
+      "general:products/amazon-dynamodb,general:products/aws-govcloud-us,general:products/amazon-cloudwatch"
+    ],
+    "isoDate": "2020-04-02T20:36:35.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Sellers, consulting partners, and data providers from Australia and New Zealand now available in AWS Marketplace and AWS Data Exchange",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-marketplace-available-sellers-consulting-partners-australia-new-zealand/",
+    "pubDate": "Thu, 02 Apr 2020 22:08:42 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS Marketplace now enables customers to discover and subscribe to software from Australia and New Zealand ISVs and Consulting Partners, adding to the 7,000+ software listings and data products from 1,500+ sellers. Starting today, AWS Marketplace customers can find their local solution providers and leverage their trusted relationships with consulting partners in the region, making it easier than ever to migrate to and build operations in the cloud.&nbsp;</p>",
+    "contentSnippet": "AWS Marketplace now enables customers to discover and subscribe to software from Australia and New Zealand ISVs and Consulting Partners, adding to the 7,000+ software listings and data products from 1,500+ sellers. Starting today, AWS Marketplace customers can find their local solution providers and leverage their trusted relationships with consulting partners in the region, making it easier than ever to migrate to and build operations in the cloud.&nbsp;",
+    "guid": "f352bbeacf20b714b653076f88b03b930618e983",
+    "categories": [
+      "marketing:marchitecture/partner-network,general:products/aws-marketplace"
+    ],
+    "isoDate": "2020-04-02T22:08:42.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS WAF and AWS Shield Advanced now available in Asia Pacific (Hong Kong) and Middle East (Bahrain)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-waf-aws-shield-advanced-now-available-hong-kong-bahrain/",
+    "pubDate": "Thu, 02 Apr 2020 20:54:30 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, AWS WAF and AWS Shield Advanced are available in two new regions: Asia Pacific (Hong Kong) and Middle East (Bahrain).&nbsp;</p>",
+    "contentSnippet": "Starting today, AWS WAF and AWS Shield Advanced are available in two new regions: Asia Pacific (Hong Kong) and Middle East (Bahrain).&nbsp;",
+    "guid": "39d1770492113d55d0398af28a59e02a5df72ad7",
+    "categories": [
+      "general:products/aws-waf,general:products/aws-shield,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-02T20:54:30.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Redshift launches RA3.4xlarge nodes with managed storage ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-redshift-launches-nodes-managed-storage/",
+    "pubDate": "Thu, 02 Apr 2020 19:40:39 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, Amazon Redshift RA3.4xlarge nodes are generally available. These new node types support up to 64 TB of Redshift managed storage per node. They enable you to scale and pay for compute and storage independently, allowing you to size your cluster based only on your compute needs.<br /> </p>",
+    "contentSnippet": "Starting today, Amazon Redshift RA3.4xlarge nodes are generally available. These new node types support up to 64 TB of Redshift managed storage per node. They enable you to scale and pay for compute and storage independently, allowing you to size your cluster based only on your compute needs.",
+    "guid": "64742acee40b66a7423e9e895d2a1134f146a4a0",
+    "categories": [
+      "general:products/amazon-redshift"
+    ],
+    "isoDate": "2020-04-02T19:40:39.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon WorkSpaces enables the bring your own license (BYOL) option in the AWS China (Ningxia) Region, Operated by NWCD",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-workspaces-enables-bring-own-license-option-aws-china-ningxia/",
+    "pubDate": "Thu, 02 Apr 2020 22:09:27 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon WorkSpaces now allows customers to bring their own licenses (BYOL) to WorkSpaces in the AWS China (Ningxia) region, operated by NWCD. With BYOL, you can now add your own Windows 10 licenses to WorkSpaces and use the Windows Desktop operating system on your Amazon WorkSpaces running on hardware that is dedicated to you. This option entitles you to a discount per month per WorkSpace, and also allows you to use a single Windows 10 Desktop golden image on-premises and for your Amazon WorkSpaces. &nbsp;</p>",
+    "contentSnippet": "Amazon WorkSpaces now allows customers to bring their own licenses (BYOL) to WorkSpaces in the AWS China (Ningxia) region, operated by NWCD. With BYOL, you can now add your own Windows 10 licenses to WorkSpaces and use the Windows Desktop operating system on your Amazon WorkSpaces running on hardware that is dedicated to you. This option entitles you to a discount per month per WorkSpace, and also allows you to use a single Windows 10 Desktop golden image on-premises and for your Amazon WorkSpaces. &nbsp;",
+    "guid": "a1ac0d7e80bfbdc94ee28345c52422c86d493ff2",
+    "categories": [
+      "general:products/amazon-workspaces,marketing:marchitecture/desktop-and-app-streaming"
+    ],
+    "isoDate": "2020-04-02T22:09:27.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon EBS crash-consistent snapshot ability now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-ebs-crash-consistent-snapshot-ability-now-available-in-aws-govcloud-regions-us-west-and-us-east/",
+    "pubDate": "Thu, 02 Apr 2020 18:39:55 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, Amazon EBS crash-consistent snapshot ability is available in&nbsp;AWS GovCloud (US) Regions. You can now take crash-consistent snapshots across multiple EBS volumes in an EC2 instance with a single API call. Backup data across multiple volumes is in sync and the restore of EBS volumes is accurate. Since snapshots are automatically taken across multiple EBS volumes, you no longer need to stop your instance or coordinate between volumes to ensure crash-consistency.<br /> </p>",
+    "contentSnippet": "Starting today, Amazon EBS crash-consistent snapshot ability is available in&nbsp;AWS GovCloud (US) Regions. You can now take crash-consistent snapshots across multiple EBS volumes in an EC2 instance with a single API call. Backup data across multiple volumes is in sync and the restore of EBS volumes is accurate. Since snapshots are automatically taken across multiple EBS volumes, you no longer need to stop your instance or coordinate between volumes to ensure crash-consistency.",
+    "guid": "24464837a1e15281d9d4b4df32b49ea7867baf1c",
+    "categories": [
+      "general:products/amazon-elastic-block-store,marketing:marchitecture/storage,general:products/aws-govcloud-us"
+    ],
+    "isoDate": "2020-04-02T18:39:55.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon MSK adds support for Apache Kafka version 2.4.1",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-msk-adds-support-for-apache-kafka-version-2-4-1/",
+    "pubDate": "Thu, 02 Apr 2020 21:37:58 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/msk/\">Amazon Managed Streaming for Apache Kafka</a> (Amazon MSK) now supports Apache Kafka version 2.4.1 for new clusters. Apache Kafka 2.4.1 includes several bug fixes and new features that reduce latency and improve performance. Support for Apache Kafka version 2.4.1 is offered in <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\">all regions where Amazon MSK is available</a>. For a complete list of improvements and bug fixes, see the Apache Kafka release notes for <a href=\"https://downloads.apache.org/kafka/2.4.1/RELEASE_NOTES.html\">2.4.1</a> and <a href=\"https://downloads.apache.org/kafka/2.4.0/RELEASE_NOTES.html\">2.4.0</a>.<br /> </p>",
+    "contentSnippet": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports Apache Kafka version 2.4.1 for new clusters. Apache Kafka 2.4.1 includes several bug fixes and new features that reduce latency and improve performance. Support for Apache Kafka version 2.4.1 is offered in all regions where Amazon MSK is available. For a complete list of improvements and bug fixes, see the Apache Kafka release notes for 2.4.1 and 2.4.0.",
+    "guid": "99115fcbbdb0e100342b362448047980b9a32c02",
+    "categories": [
+      "general:products/amazon-msk,marketing:marchitecture/analytics"
+    ],
+    "isoDate": "2020-04-02T21:37:58.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Data Lifecycle Manager Now Available in the AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-data-lifecycle-manager-now-available-in-the-aws-govcloud-regions-us-west-and-us-east/",
+    "pubDate": "Thu, 02 Apr 2020 18:40:09 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, Amazon Data Lifecycle Manager (DLM) for EBS Snapshots is available in the AWS GovCloud (US) Regions. Amazon DLM provides a simple, automated way to back up data stored on Amazon EBS volumes. With this feature, you no longer have to rely on custom scripts to create and manage your EBS volume backups.<br /> </p>",
+    "contentSnippet": "Starting today, Amazon Data Lifecycle Manager (DLM) for EBS Snapshots is available in the AWS GovCloud (US) Regions. Amazon DLM provides a simple, automated way to back up data stored on Amazon EBS volumes. With this feature, you no longer have to rely on custom scripts to create and manage your EBS volume backups.",
+    "guid": "52167fdae2139a71f87a35421a30fc1a4b6dd7be",
+    "categories": [
+      "general:products/aws-govcloud-us,general:products/amazon-elastic-block-store,marketing:marchitecture/storage"
+    ],
+    "isoDate": "2020-04-02T18:40:09.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS IoT Device Defender now supports Dimensions for topic-based metric monitoring",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-iot-device-defender-now-supports-dimensions-for-topic-based-metric-monitoring/",
+    "pubDate": "Thu, 02 Apr 2020 18:53:28 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>AWS IoT Device Defender announces the General Availability (GA) of the Dimensions feature that enables customers to filter the metrics that Device Defender Detect evaluates by MQTT topic. Dimensions supports the following cloud-side metrics: number of messages received, message byte size, number of messages sent, source IP, and number of authorization failures.&nbsp;</p>",
+    "contentSnippet": "AWS IoT Device Defender announces the General Availability (GA) of the Dimensions feature that enables customers to filter the metrics that Device Defender Detect evaluates by MQTT topic. Dimensions supports the following cloud-side metrics: number of messages received, message byte size, number of messages sent, source IP, and number of authorization failures.&nbsp;",
+    "guid": "4a9143a85863e379974a6995eda40367cea18ef7",
+    "categories": [
+      "general:products/aws-iot-device-defender,marketing:marchitecture/internet-of-things,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "isoDate": "2020-04-02T18:53:28.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CodeGuru Profiler flame graphs are now easier to use",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-codeguru-profiler-flame-graphs-are-now-easier-to-use/",
+    "pubDate": "Thu, 02 Apr 2020 21:55:29 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>We are excited to announce that <a href=\"/codeguru/\">Amazon CodeGuru Profiler</a> has introduced an improved flame graph interface that enhances overall usability. You can now navigate more easily with improved scrolling functionality. There is also a new visual tool that shows the part of a graph that you are currently viewing. This allows you to move around the graph more easily and focus on the areas you are interested in.</p>",
+    "contentSnippet": "We are excited to announce that Amazon CodeGuru Profiler has introduced an improved flame graph interface that enhances overall usability. You can now navigate more easily with improved scrolling functionality. There is also a new visual tool that shows the part of a graph that you are currently viewing. This allows you to move around the graph more easily and focus on the areas you are interested in.",
+    "guid": "2ee2ca2d589938d92ba291d27ffd7459d03836dd",
+    "categories": [
+      "general:products/amazon-machine-learning,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-02T21:55:29.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Transcribe Medical now supports batch transcription of medical audio files",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-transcribe-medical-now-supports-batch-transcription-of-medical-audio-files/",
+    "pubDate": "Thu, 02 Apr 2020 17:24:16 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/transcribe/medical/\">Amazon Transcribe Medical</a> is HIPAA eligible automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capabilities to their healthcare and life science applications. Up until now, Amazon Transcribe Medical has been available as a streaming API whereby users can pass realtime audio for transcription. Starting today, customers of the service can conveniently transcribe recorded medical audio files too. <br /> </p>",
+    "contentSnippet": "Amazon Transcribe Medical is HIPAA eligible automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capabilities to their healthcare and life science applications. Up until now, Amazon Transcribe Medical has been available as a streaming API whereby users can pass realtime audio for transcription. Starting today, customers of the service can conveniently transcribe recorded medical audio files too.",
+    "guid": "bde0a256bbbb5574d830b9d262e5f3fb750f0902",
+    "categories": [
+      "general:products/amazon-transcribe,general:products/amazon-machine-learning,marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-02T17:24:16.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CloudWatch Contributor Insights is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-contributor-insights-is-now-generally-available/",
+    "pubDate": "Thu, 02 Apr 2020 21:37:17 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon CloudWatch Contributor Insights is now generally available. Contributor Insights analyzes time-series data to help you understand who or what is impacting your system and application performance by pinpointing outliers, finding the heaviest traffic patterns, and ranking the top system processes. This helps developers and operators more quickly isolate, diagnose, and remediate issues during an operational event.<br /> </p>",
+    "contentSnippet": "Amazon CloudWatch Contributor Insights is now generally available. Contributor Insights analyzes time-series data to help you understand who or what is impacting your system and application performance by pinpointing outliers, finding the heaviest traffic patterns, and ranking the top system processes. This helps developers and operators more quickly isolate, diagnose, and remediate issues during an operational event.",
+    "guid": "0c0087f48dbc1d96df97648b38b3b3e10e0e4473",
+    "categories": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance,general:products/aws-govcloud-us"
+    ],
+    "isoDate": "2020-04-02T21:37:17.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CodeGuru Profiler now includes support for AWS CloudFormation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-codeguru-profiler-now-includes-support-for-aws-cloudformation/",
+    "pubDate": "Thu, 02 Apr 2020 22:05:33 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/codeguru/\">Amazon CodeGuru</a> Profiler has added support for <a href=\"/cloudformation/\">AWS CloudFormation</a>, allowing customers to create profiling groups when they provision new resources. This makes it easier to monitor and manage the performance of applications without having to configure Amazon CodeGuru Profiler separately through the console.</p>",
+    "contentSnippet": "Amazon CodeGuru Profiler has added support for AWS CloudFormation, allowing customers to create profiling groups when they provision new resources. This makes it easier to monitor and manage the performance of applications without having to configure Amazon CodeGuru Profiler separately through the console.",
+    "guid": "0e53cdab12ff3d0992c0a5fec54bbe9e276ea91e",
+    "categories": [
+      "general:products/aws-cloudformation,general:products/amazon-machine-learning,marketing:marchitecture/developer-tools"
+    ],
+    "isoDate": "2020-04-02T22:05:33.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Rekognition Custom Labels now supports delete functionality for Projects and Models ",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-rekognition-custom-labels-now-supports-delete-functionality-for-projects-and-models/",
+    "pubDate": "Thu, 02 Apr 2020 21:08:04 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Rekognition Custom Labels is a feature of <a href=\"/rekognition/\" target=\"_blank\">Amazon Rekognition</a>, that allows customers with no machine learning (ML) expertise, to build their own ML-based image analysis capabilities to identify the unique objects and scenes that are relevant to their business need. &nbsp;</p>",
+    "contentSnippet": "Amazon Rekognition Custom Labels is a feature of Amazon Rekognition, that allows customers with no machine learning (ML) expertise, to build their own ML-based image analysis capabilities to identify the unique objects and scenes that are relevant to their business need. &nbsp;",
+    "guid": "8a0f7d437117dc8aa8ebf6307f001f7e5fdeaf3c",
+    "categories": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-rekognition"
+    ],
+    "isoDate": "2020-04-02T21:08:04.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon CloudWatch Contributor Insights for Amazon DynamoDB is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-cloudwatch-contributor-insights-for-amazon-dynamodb-is-now-generally-available/",
+    "pubDate": "Thu, 02 Apr 2020 20:30:32 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon CloudWatch Contributor Insights for DynamoDB is now generally available. CloudWatch Contributor Insights for DynamoDB is a diagnostic tool that provides an at-a-glance view of your DynamoDB tables’ traffic trends and helps you identify your tables’ most frequently accessed keys (also known as hot keys). You can monitor each table’s item access patterns continuously and use CloudWatch Contributor Insights to generate graphs and visualizations of the table’s activity. Using this information, you can better understand the top drivers of your application’s traffic and respond appropriately to unsuccessful requests. &nbsp;</p>",
+    "contentSnippet": "Amazon CloudWatch Contributor Insights for DynamoDB is now generally available. CloudWatch Contributor Insights for DynamoDB is a diagnostic tool that provides an at-a-glance view of your DynamoDB tables’ traffic trends and helps you identify your tables’ most frequently accessed keys (also known as hot keys). You can monitor each table’s item access patterns continuously and use CloudWatch Contributor Insights to generate graphs and visualizations of the table’s activity. Using this information, you can better understand the top drivers of your application’s traffic and respond appropriately to unsuccessful requests. &nbsp;",
+    "guid": "ceedf0d5b573b3bcafa554aea6bad74423ff3203",
+    "categories": [
+      "marketing:marchitecture/databases,general:products/amazon-dynamodb"
+    ],
+    "isoDate": "2020-04-02T20:30:32.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "AWS DeepComposer is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/aws-deepcomposer-now-generally-available/",
+    "pubDate": "Thu, 02 Apr 2020 18:28:22 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p><a href=\"/deepcomposer/\" target=\"_blank\">AWS DeepComposer</a> is now generally available to all AWS customers, with exciting new feature additions. AWS DeepComposer gives developers a creative way to learn machine learning. Get hands-on, literally, with a musical keyboard and the latest machine learning techniques, designed to expand your ML skills. AWS DeepComposer includes tutorials, sample code, and training data that can be used to build generative AI models, all without having to write a single line of code. &nbsp;</p>",
+    "contentSnippet": "AWS DeepComposer is now generally available to all AWS customers, with exciting new feature additions. AWS DeepComposer gives developers a creative way to learn machine learning. Get hands-on, literally, with a musical keyboard and the latest machine learning techniques, designed to expand your ML skills. AWS DeepComposer includes tutorials, sample code, and training data that can be used to build generative AI models, all without having to write a single line of code. &nbsp;",
+    "guid": "e16415ee8b1f0eaf8a8f3c734ead260b5502a532",
+    "categories": [
+      "marketing:marchitecture/artificial-intelligence"
+    ],
+    "isoDate": "2020-04-02T18:28:22.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Receive Notifications for AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, and AWS CodePipeline in Slack",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/receive-notifications-for-aws-codebuild-codecommit-codedeploy-codepipeline-in-slack/",
+    "pubDate": "Thu, 02 Apr 2020 20:59:04 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Customers can now receive and view notifications for&nbsp;<a href=\"/codecommit/\" target=\"_blank\">AWS CodeCommit</a>, <a href=\"/codebuild/\" target=\"_blank\">AWS CodeBuild</a>, <a href=\"/codedeploy/\" target=\"_blank\">AWS CodeDeploy</a>, and/or <a href=\"/codepipeline/\" target=\"_blank\">AWS CodePipeline</a>&nbsp;directly in Slack with a few clicks in the AWS console. This includes notifications such as CodeBuild build completions, CodeCommit source changes, completed CodeDeploy deployments, and successful CodePipeline executions.</p>",
+    "contentSnippet": "Customers can now receive and view notifications for&nbsp;AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and/or AWS CodePipeline&nbsp;directly in Slack with a few clicks in the AWS console. This includes notifications such as CodeBuild build completions, CodeCommit source changes, completed CodeDeploy deployments, and successful CodePipeline executions.",
+    "guid": "00b67c28fc0d27dc6d0f0143efd9369d60e17a26",
+    "categories": [
+      "marketing:marchitecture/developer-tools,general:products/aws-chatbot"
+    ],
+    "isoDate": "2020-04-02T20:59:04.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Neptune now supports the r5.8xlarge instance type",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-neptune-now-supports-the-8xlarge-size-db-r5-instance-class/",
+    "pubDate": "Thu, 02 Apr 2020 16:18:43 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Now you can launch your <a href=\"https://aws.amazon.com/neptune\">Amazon Neptune</a> RDF/SPARQL or Apache TinkerPop graph application with an db.r5.8xlarge instance type in all regions where Amazon Neptune is available.</p>",
+    "contentSnippet": "Now you can launch your Amazon Neptune RDF/SPARQL or Apache TinkerPop graph application with an db.r5.8xlarge instance type in all regions where Amazon Neptune is available.",
+    "guid": "3459bb827e173314415097fffbec3f8615f2c255",
+    "categories": [
+      "general:products/amazon-neptune,marketing:marchitecture/databases"
+    ],
+    "isoDate": "2020-04-02T16:18:43.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Elastic File System announces 400% increase in read operations for General Purpose mode file systems",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-elastic-file-system-announces-increase-in-read-operations-for-general-purpose-file-systems/",
+    "pubDate": "Wed, 01 Apr 2020 14:45:20 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Starting today, <a href=\"/efs/\" target=\"_blank\">Amazon Elastic File System</a> (Amazon EFS)&nbsp;General Purpose mode file systems support up to 35,000 read operations per second, a 400% increase from the previous limit of 7,000. Maximum write operations are unchanged at 7,000 per second.</p>",
+    "contentSnippet": "Starting today, Amazon Elastic File System (Amazon EFS)&nbsp;General Purpose mode file systems support up to 35,000 read operations per second, a 400% increase from the previous limit of 7,000. Maximum write operations are unchanged at 7,000 per second.",
+    "guid": "acd2a1cc403db514cf928676920c072d0df6f2b2",
+    "categories": [
+      "general:products/amazon-efs,marketing:marchitecture/storage"
+    ],
+    "isoDate": "2020-04-01T14:45:20.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Sumerian supports exporting your scenes to glTF",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-sumerian-supports-exporting-scenes-to-gltf/",
+    "pubDate": "Wed, 01 Apr 2020 17:21:06 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Sumerian, the AWS service that makes it easy to create and run browser-based 3D, augmented reality (AR), and virtual reality (VR) applications, now supports exporting your Sumerian scenes to glTF (GL Transmission Format), an open-source file format for 3D scenes and models that’s compatible with many other 3D editing tools and rendering engines. To learn more about the glTF file format and what is supported, please refer to our <a href=\"https://docs.aws.amazon.com/sumerian/latest/userguide/editor-gltf-export.html\" target=\"_blank\">user guide</a>. &nbsp;</p>",
+    "contentSnippet": "Amazon Sumerian, the AWS service that makes it easy to create and run browser-based 3D, augmented reality (AR), and virtual reality (VR) applications, now supports exporting your Sumerian scenes to glTF (GL Transmission Format), an open-source file format for 3D scenes and models that’s compatible with many other 3D editing tools and rendering engines. To learn more about the glTF file format and what is supported, please refer to our user guide. &nbsp;",
+    "guid": "f9665b04f9a9014bd23dd46bc5277dbed7507d56",
+    "categories": [
+      "general:products/amazon-sumerian,marketing:marchitecture/arvr"
+    ],
+    "isoDate": "2020-04-01T17:21:06.000Z"
+  },
+  {
+    "creator": "aws@amazon.com",
+    "title": "Amazon Connect adds custom terminating keypress for DTMF",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2020/04/amazon-connect-adds-custom-terminating-keypress-for-dtmf/",
+    "pubDate": "Thu, 02 Apr 2020 00:36:27 +0000",
+    "author": "aws@amazon.com",
+    "content": "<p>Amazon Connect now enables you to define a custom terminating keypress when capturing DTMF (dual-tone multi frequency) inputs to provide greater flexibility when accepting multiple inputs during a call. Instead of the default “#” to signal the end of DTMF collection, you can now specify a different digit such as “*” or a series of digits such as “##” or “0000”. For example, this can be used to let your callers enter multiple inputs such as <i>account number</i>, <i>amount</i>, and <i>stock name</i> in a single stream of digits, rather than enter each input one at a time.&nbsp;</p>",
+    "contentSnippet": "Amazon Connect now enables you to define a custom terminating keypress when capturing DTMF (dual-tone multi frequency) inputs to provide greater flexibility when accepting multiple inputs during a call. Instead of the default “#” to signal the end of DTMF collection, you can now specify a different digit such as “*” or a series of digits such as “##” or “0000”. For example, this can be used to let your callers enter multiple inputs such as account number, amount, and stock name in a single stream of digits, rather than enter each input one at a time.&nbsp;",
+    "guid": "72c5763f7f9a351f986d7624056b101eb16e8982",
+    "categories": [
+      "general:products/amazon-connect,marketing:marchitecture/messaging"
+    ],
+    "isoDate": "2020-04-02T00:36:27.000Z"
+  }
+]
