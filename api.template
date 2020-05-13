@@ -1,0 +1,58 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+Description: BigOrange.Cloud Updates API
+
+Transform: AWS::Serverless-2016-10-31
+
+Parameters:
+  # ParameterScope:
+  #   Type: String
+  #   Description: The top-level scope for parameters in SM PS
+
+  ActiveTableName:
+    Type: AWS::SSM::Parameter::Value<String>
+    Description: The DDB table name
+
+Resources:
+
+  GetItemsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./functions/getItems
+      Handler: index.handler
+      MemorySize: 512
+      Timeout: 5
+      Runtime: nodejs12.x
+      Environment:
+        Variables:
+          ACTIVE_TABLE_NAME: !Ref ActiveTableName
+      Events:
+        HttpApi:
+          Type: HttpApi
+          Properties:
+            Path: /items
+            Method: get
+      Policies:
+        - Version: "2012-10-17"
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:Query
+              Resource:
+                - !Sub
+                  arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}
+                - !Sub
+                  arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}/*
+
+  # ParameterGraphQLApiKey:
+  #   Type: AWS::SSM::Parameter
+  #   Properties:
+  #     Description: AppSync GraphQL key
+  #     Name: !Sub ${ParameterScope}/api/key
+  #     Type: String
+  #     Value: !GetAtt ApiKey.ApiKey
+
+# Outputs:
+
+#   GraphQLUrl:
+#     Value: !GetAtt GraphQLApi.GraphQLUrl

@@ -63,3 +63,17 @@ scrapers.template: functions
 			ActiveTableName=${PARAMETER_SCOPE}/tables/active/name \
 		--capabilities CAPABILITY_IAM \
 		--no-fail-on-empty-changeset
+
+.PHONY: api.template
+api.template: functions
+	aws cloudformation package \
+		--template-file $@ \
+		--s3-bucket ${S3_BUCKET} \
+		--output-template-file $@.out
+	aws cloudformation deploy \
+		--stack-name ${STACK_PREFIX}-api \
+		--template-file $@.out \
+		--parameter-overrides \
+			ActiveTableName=${PARAMETER_SCOPE}/tables/active/name \
+		--capabilities CAPABILITY_IAM \
+		--no-fail-on-empty-changeset
