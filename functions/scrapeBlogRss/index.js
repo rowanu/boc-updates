@@ -27,12 +27,25 @@ const parseItemsFrom = (feed, source) => {
 const put = async function(Item) {
   log(Item)
   const params = { Item }
-  return await client.put(params).promise()
+  return client.put(params).promise()
+}
+
+const updateSources = async function(source) {
+  const params = {
+    Key: { PK: 'SOURCES', SK: 'SOURCES' },
+    UpdateExpression: 'ADD #sources :source',
+    ExpressionAttributeNames: {
+      '#sources': 'SOURCES',
+    },
+    ExpressionAttributeValues: { ':source': client.createSet(source) },
+  }
+  return client.update(params).promise()
 }
 
 const handler = async event => {
   log(event)
   for (const source of event.sources) {
+    await updateSources(source.name)
     const feed = await getFeedItems(source.url)
     const items = parseItemsFrom(feed, source.name)
     // NOTE: These puts could easily be done in parallel, but no need

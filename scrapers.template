@@ -55,6 +55,7 @@ Resources:
             - Effect: Allow
               Action:
                 - dynamodb:PutItem
+                - dynamodb:UpdateItem
               Resource:
                 - !Sub
                   arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}
