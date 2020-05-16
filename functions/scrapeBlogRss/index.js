@@ -35,7 +35,7 @@ const updateSources = async function(source) {
     Key: { PK: 'SOURCES', SK: 'SOURCES' },
     UpdateExpression: 'ADD #sources :source',
     ExpressionAttributeNames: {
-      '#sources': 'SOURCES',
+      '#sources': 'sources',
     },
     ExpressionAttributeValues: { ':source': client.createSet(source) },
   }

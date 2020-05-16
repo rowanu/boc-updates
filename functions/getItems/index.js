@@ -5,26 +5,47 @@ const client = new AWS.DynamoDB.DocumentClient({
 })
 const log = data => console.log(JSON.stringify(data))
 
+const getSources = async function() {
+  const params = {
+    Key: {
+      PK: 'SOURCES',
+      SK: 'SOURCES',
+    },
+  }
+  return client.get(params).promise()
+}
+
 const query = async function(source) {
   const params = {
     KeyConditionExpression: '#pk = :source',
     ExpressionAttributeValues: { ':source': source },
     ExpressionAttributeNames: { '#pk': 'PK' },
   }
-  return await client.query(params).promise()
+  return client.query(params).promise()
 }
+
+const cleanItem = raw => raw
 
 const handler = async event => {
   log(event)
-  // TODO: Get sources from DB
-  // TODO: Get items by source
-  const response = await query('Recent Announcements')
-  // TODO: Return merged/sorted items
+  const {
+    Item: {
+      sources: { values: sources },
+    },
+  } = await getSources()
+  console.log(sources)
+  let items = []
+  for (const source of sources) {
+    const response = await query(source)
+    items = items.concat(response.Items)
+  }
+  // TODO: Sort items?
   // TODO: Remove DDB fields e.g. PK, SK
-  return response.Items
+  return items
 }
 
 exports.handler = handler
+exports.cleanItem = cleanItem
 
 if (require.main === module) {
   handler()
