@@ -24,7 +24,13 @@ const query = async function(source) {
   return client.query(params).promise()
 }
 
-const cleanItem = raw => raw
+const cleanItem = ({ link, publishedAt, source, title, type }) => ({
+  link,
+  publishedAt,
+  source,
+  title,
+  type,
+})
 
 const handler = async event => {
   log(event)
@@ -33,15 +39,14 @@ const handler = async event => {
       sources: { values: sources },
     },
   } = await getSources()
-  console.log(sources)
+  log(sources)
   let items = []
   for (const source of sources) {
     const response = await query(source)
     items = items.concat(response.Items)
   }
   // TODO: Sort items?
-  // TODO: Remove DDB fields e.g. PK, SK
-  return items
+  return items.map(cleanItem)
 }
 
 exports.handler = handler
