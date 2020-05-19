@@ -13,6 +13,9 @@ export default {
   components: {
     HelloWorld,
   },
+  mounted() {
+    console.log('window.env.API', window.env.API)
+  },
 }
 </script>
 
