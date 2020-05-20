@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div v-for="item in sortedItems" :key="item.id">
+      <a :href="item.link" target="_blank">{{ item.title }}</a>
+      {{ item.source }}
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   data() {
@@ -15,12 +15,17 @@ export default {
       items: [],
     }
   },
-  components: {
-    HelloWorld,
-  },
+  components: {},
   watch: {
     items(val) {
       console.debug(`${val.length} items recieved`)
+    },
+  },
+  computed: {
+    sortedItems() {
+      return this.items.slice().sort((a, b) => {
+        return b.publishedAt.localeCompare(a.publishedAt)
+      })
     },
   },
   mounted() {
@@ -32,13 +37,4 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
