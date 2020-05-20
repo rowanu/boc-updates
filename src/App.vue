@@ -10,11 +10,24 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      items: [],
+    }
+  },
   components: {
     HelloWorld,
   },
+  watch: {
+    items(val) {
+      console.debug(`${val.length} items recieved`)
+    },
+  },
   mounted() {
     console.log('window.env.API', window.env.API)
+    fetch(`${window.env.API}/items`)
+      .then(response => response.json())
+      .then(items => (this.items = items))
   },
 }
 </script>

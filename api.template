@@ -15,6 +15,22 @@ Parameters:
 
 Resources:
 
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      AccessLogSettings:
+        DestinationArn: !GetAtt AccessLogs.Arn
+        Format: $context.requestId
+      CorsConfiguration:
+        AllowOrigins:
+          - https://bigorange.cloud
+          - http://localhost:8080 # TODO: Remove/Make configurable
+        AllowMethods:
+          - GET
+
+  AccessLogs:
+    Type: AWS::Logs::LogGroup
+
   GetItemsFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -30,6 +46,7 @@ Resources:
         HttpApi:
           Type: HttpApi
           Properties:
+            ApiId: !Ref HttpApi
             Path: /items
             Method: get
       Policies:
