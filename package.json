@@ -6,8 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "test:unit:watch": "vue-cli-service test:unit --watch --notify",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:unit:watch": "vue-cli-service test:unit --watch --notify"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -26,6 +26,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^1.19.1",
+    "vue-cli-plugin-tailwind": "~1.4.1",
     "vue-template-compiler": "^2.6.11"
   },
   "config": {
