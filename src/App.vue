@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    BigOrange.Cloud/Updates
     <div class="">
       <div v-for="item in groupedItems" :key="item.id" class="px-3 py-1">
-        <div v-if="item.title">
+        <div v-if="item.title" :class="{ 'font-bold': item.isNew }">
           <a
             :href="item.link"
             target="_blank"
@@ -11,13 +12,14 @@
           >
             {{ item.title }}
           </a>
-          <span class="text-xs px-2 font-thin"> ({{ item.publishedAt }}) </span>
           <span class="text-xs px-2 font-thin">
             {{ item.source }}
           </span>
         </div>
         <div v-else>
-          {{ item.date }}
+          <div class="text-sm">
+            {{ item.date }}
+          </div>
         </div>
       </div>
     </div>
@@ -29,6 +31,7 @@ export default {
   name: 'App',
   data() {
     return {
+      lastVisit: null,
       items: [],
     }
   },
@@ -49,6 +52,7 @@ export default {
           groupedItems.push({ date })
           lastDate = date
         }
+        item.isNew = item.publishedAt > this.lastVisit
         groupedItems.push(item)
       }
       return groupedItems
@@ -60,10 +64,17 @@ export default {
     },
   },
   mounted() {
-    console.log('window.env.API', window.env.API)
+    console.debug('window.env.API', window.env.API)
     fetch(`${window.env.API}/items`)
       .then(response => response.json())
       .then(items => (this.items = items))
+
+    this.lastVisit = localStorage.getItem('lastVisit')
+    console.debug('lastVisit', this.lastVisit)
+    setTimeout(() => {
+      localStorage.setItem('lastVisit', new Date().toISOString())
+      console.debug('localStorage.lastVisit', localStorage.getItem('lastVisit'))
+    }, 5000)
   },
 }
 </script>
