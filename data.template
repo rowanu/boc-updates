@@ -23,6 +23,9 @@ Resources:
         - AttributeName: SK
           KeyType: RANGE
       BillingMode: PAY_PER_REQUEST
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
 
   ActiveTableNameParameter:
     Type: AWS::SSM::Parameter

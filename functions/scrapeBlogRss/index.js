@@ -13,13 +13,15 @@ const getFeedItems = async url => {
 }
 
 const parseItemsFrom = (feed, source) => {
+  const expiresAt = Math.floor(+new Date() / 1000) + 1209600 // 2 weeks
   return feed.map(({ isoDate, guid, title, link }) => ({
     PK: source,
     SK: guid,
-    title: title,
+    expiresAt,
     link: link,
     publishedAt: isoDate,
     source,
+    title: title,
     type: 'blog',
   }))
 }
