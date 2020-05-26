@@ -52,7 +52,7 @@ export default {
           groupedItems.push({ date })
           lastDate = date
         }
-        item.isNew = item.publishedAt > this.lastVisit
+        item.isNew = new Date(item.publishedAt) > new Date(this.lastVisit)
         groupedItems.push(item)
       }
       return groupedItems
