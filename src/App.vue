@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    BigOrange.Cloud/Updates
+    <div class="text-2xl px-4 pt-1">
+      <a href="https://bigorange.cloud/updates">
+        Big<span class="-lg text-orange-500">Orange</span>.Cloud/Updates</a
+      >
+    </div>
     <div class="">
       <div v-for="item in groupedItems" :key="item.id" class="px-3 py-1">
         <div v-if="item.title" :class="{ 'font-bold': item.isNew }">
-          <a
-            :href="item.link"
-            target="_blank"
-            class="hover:border-2
-                    border-b"
-          >
+          <a :href="item.link" target="_blank" class="text-lg">
             {{ item.title }}
           </a>
-          <span class="text-xs px-2 font-thin">
+          <span class="text-sm px-2 font-thin text-gray-500">
             {{ item.source }}
           </span>
         </div>
         <div v-else>
-          <div class="text-sm">
-            {{ item.date }}
+          <div class="pt-1 text-xs float-left w-full text-gray-500">
+            {{ friendlyDate(item.date) }}
           </div>
         </div>
       </div>
@@ -39,6 +38,11 @@ export default {
   watch: {
     items(val) {
       console.debug(`${val.length} items recieved`)
+    },
+  },
+  methods: {
+    friendlyDate(date) {
+      return new Date(date).toUTCString().slice(0, 11)
     },
   },
   computed: {
