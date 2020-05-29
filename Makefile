@@ -75,5 +75,13 @@ api.template: functions
 		--template-file $@.out \
 		--parameter-overrides \
 			ActiveTableName=${PARAMETER_SCOPE}/tables/active/name \
+			ParameterScope=${PARAMETER_SCOPE} \
 		--capabilities CAPABILITY_IAM \
 		--no-fail-on-empty-changeset
+
+.PHONY: site.template
+site.template:
+	aws cloudformation deploy \
+		--stack-name ${STACK_PREFIX}-site \
+		--no-fail-on-empty-changeset \
+		--template-file site.template

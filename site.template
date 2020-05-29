@@ -1,0 +1,68 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: static site hosting.
+
+Parameters:
+
+  ParameterScope:
+    Type: String
+    Default: /boc/updates/site
+    Description: The top-level scope for parameters in SM PS
+
+Resources:
+
+  Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: 404.html
+
+  BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref Bucket
+      PolicyDocument:
+        Id: PublicReadPolicy
+        Version: 2012-10-17
+        Statement:
+          - Sid: PublicReadForGetBucketObjects
+            Effect: Allow
+            Principal: '*'
+            Action:
+              - s3:GetObject
+            Resource:
+              - !Sub ${Bucket.Arn}/*
+
+  ParameterBucketArn:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: Site bucket Arn
+      Name: !Sub ${ParameterScope}/bucket/arn
+      Type: String
+      Value: !Sub ${Bucket.Arn}
+
+  ParameterBucketName:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: Site bucket name
+      Name: !Sub ${ParameterScope}/bucket/name
+      Type: String
+      Value: !Sub ${Bucket}
+
+  ParameterBucketUrl:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: Site bucket url
+      Name: !Sub ${ParameterScope}/bucket/url
+      Type: String
+      Value: !Sub ${Bucket.WebsiteURL}
+
+Outputs:
+
+  WebsiteURL:
+    Value: !Sub ${Bucket.WebsiteURL}
+    Description: S3 Website URL
