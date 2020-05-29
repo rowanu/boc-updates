@@ -46,6 +46,10 @@ Resources:
                   {
                     "name": "What's New With AWS",
                     "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+                  },
+                  {
+                    "name": "API Changes",
+                    "url": "https://awsapichanges.info/feed/feed.rss"
                   }
                 ]
               }
