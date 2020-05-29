@@ -5,9 +5,9 @@ Description: BigOrange.Cloud Updates API
 Transform: AWS::Serverless-2016-10-31
 
 Parameters:
-  # ParameterScope:
-  #   Type: String
-  #   Description: The top-level scope for parameters in SM PS
+  ParameterScope:
+    Type: String
+    Description: The top-level scope for parameters in SM PS
 
   ActiveTableName:
     Type: AWS::SSM::Parameter::Value<String>
@@ -23,6 +23,7 @@ Resources:
         Format: $context.requestId
       CorsConfiguration:
         AllowOrigins:
+          - http://* # TODO: Remove, testing
           - https://bigorange.cloud
           - http://localhost:8080 # TODO: Remove/Make configurable
         AllowMethods:
@@ -62,13 +63,13 @@ Resources:
                 - !Sub
                   arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${ActiveTableName}/*
 
-  # ParameterGraphQLApiKey:
-  #   Type: AWS::SSM::Parameter
-  #   Properties:
-  #     Description: AppSync GraphQL key
-  #     Name: !Sub ${ParameterScope}/api/key
-  #     Type: String
-  #     Value: !GetAtt ApiKey.ApiKey
+  HttpApiId:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: HTTP API ID
+      Name: !Sub ${ParameterScope}/api/id
+      Type: String
+      Value: !Ref HttpApi
 
 # Outputs:
 

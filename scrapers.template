@@ -44,7 +44,7 @@ Resources:
                     "url": "https://feeds.feedburner.com/AmazonWebServicesBlog"
                   },
                   {
-                    "name": "Recent Announcements",
+                    "name": "What's New With AWS",
                     "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
                   }
                 ]
