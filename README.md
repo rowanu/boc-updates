@@ -1,10 +1,44 @@
 # BigOrange.Cloud/Updates
 
+Keeping up with AWS updates is hard, so I created
+[BigOrange.Cloud/Updates](https://bigorange.cloud/updates) to do it for me.
+
+Before this, the best way I'd found was piping the various RSS feeds in to my
+Slack (and [I'm not the only
+one](https://www.reddit.com/r/aws/comments/g0itdu/q_how_do_you_keep_up_with_aws_new_announcements/)),
+but that's no fun.
+
+Items that have appeared since you last visited **will be shown in bold**, so
+you know what's new.
+
+![](example.png)
+
+## Architecture
+
 ![](diagrams-architecture.png)
+
+## Sources
+
+* [AWS Blog]()
+* [What's New With AWS]()
+* [API Changes]()
+
+### Planned
+
+* Other AWS blogs
+* AWS CVEs
+* [AWS Status](https://status.aws.amazon.com/) LOL!
 
 ### Layers
 
+Components are deployed via CloudFormation (and
+[SAM](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md))
+as layers, so that dependencies are managed cleanly.
+
 ![](diagrams-layers.png)
+
+Note that the CloudFront Distribution is managed separately, as it fronts
+multiple applications.
 
 ## Deploy
 
