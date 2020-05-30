@@ -1,13 +1,9 @@
 SHELL := /bin/bash
 CFN_TEMPLATE_PATTERN ?= *.template
 
-# Used in recipes
 S3_BUCKET ?= rowanudell-2019-deployment
 STACK_PREFIX ?= boc-updates
 PARAMETER_SCOPE ?= /boc/updates
-GITHUB_BRANCH ?= master
-GITHUB_OWNER ?= rowanu
-GITHUB_REPO ?= boc-feed
 
 # Build functions
 FUNCTIONDIRS := $(wildcard functions/*/.)
