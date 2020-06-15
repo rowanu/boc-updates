@@ -50,6 +50,14 @@ Resources:
                   {
                     "name": "API Changes",
                     "url": "https://awsapichanges.info/feed/feed.rss"
+                  },
+                  {
+                    "name": "AWS Compute Blog",
+                    "url": "https://aws.amazon.com/blogs/compute/feed/"
+                  },
+                  {
+                    "name": "AWS News Blog",
+                    "url": "https://aws.amazon.com/blogs/aws/feed/"
                   }
                 ]
               }
