@@ -12,7 +12,7 @@ const getFeedItems = async url => {
   return feed.items
 }
 
-const parseItemsFrom = (feed, source) => {
+const parseItemsFrom = (feed, source, type) => {
   const expiresAt = Math.floor(+new Date() / 1000) + 1209600 // 2 weeks
   return feed.map(({ isoDate, guid, title, link }) => ({
     PK: source,
@@ -22,7 +22,7 @@ const parseItemsFrom = (feed, source) => {
     publishedAt: isoDate,
     source,
     title: title,
-    type: 'blog',
+    type: type,
   }))
 }
 
@@ -49,7 +49,7 @@ const handler = async event => {
   for (const source of event.sources) {
     await updateSources(source.name)
     const feed = await getFeedItems(source.url)
-    const items = parseItemsFrom(feed, source.name)
+    const items = parseItemsFrom(feed, source.name, source.type)
     // NOTE: These puts could easily be done in parallel, but no need
     for (const item of items) {
       const response = await put(item)
@@ -60,7 +60,3 @@ const handler = async event => {
 
 exports.handler = handler
 exports.parseItemsFrom = parseItemsFrom
-
-if (require.main === module) {
-  // handler()
-}

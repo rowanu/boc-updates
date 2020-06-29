@@ -41,23 +41,28 @@ Resources:
                 "sources": [
                   {
                     "name": "AWS Blog",
-                    "url": "https://feeds.feedburner.com/AmazonWebServicesBlog"
+                    "url": "https://feeds.feedburner.com/AmazonWebServicesBlog",
+                    "type": "blog"
                   },
                   {
                     "name": "What's New With AWS",
-                    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+                    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+                    "type": "blog"
                   },
                   {
                     "name": "API Changes",
-                    "url": "https://awsapichanges.info/feed/feed.rss"
+                    "url": "https://awsapichanges.info/feed/feed.rss",
+                    "type": "api"
                   },
                   {
                     "name": "AWS Compute Blog",
-                    "url": "https://aws.amazon.com/blogs/compute/feed/"
+                    "url": "https://aws.amazon.com/blogs/compute/feed/",
+                    "type": "blog"
                   },
                   {
                     "name": "AWS News Blog",
-                    "url": "https://aws.amazon.com/blogs/aws/feed/"
+                    "url": "https://aws.amazon.com/blogs/aws/feed/",
+                    "type": "blog"
                   }
                 ]
               }
