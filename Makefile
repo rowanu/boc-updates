@@ -81,3 +81,16 @@ site.template:
 		--stack-name ${STACK_PREFIX}-site \
 		--no-fail-on-empty-changeset \
 		--template-file site.template
+
+# NOTE: Pipeline must already be deployed with GitHub details
+.PHONY: pipeline.template
+pipeline.template:
+	aws cloudformation deploy \
+		--stack-name ${STACK_PREFIX}-pipeline \
+		--template-file pipeline.template \
+		--parameter-overrides \
+			ParameterScope=${PARAMETER_SCOPE} \
+			SiteBucketArn=${PARAMETER_SCOPE}/site/bucket/arn \
+			SiteBucketName=${PARAMETER_SCOPE}/site/bucket/name \
+		--capabilities CAPABILITY_IAM \
+		--no-fail-on-empty-changeset
