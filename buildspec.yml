@@ -1,0 +1,34 @@
+---
+version: 0.2
+
+# env:
+#   parameter-store:
+#     API: /boc/updates/
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - env | sort
+      - make install
+
+  pre_build:
+    commands:
+      # - make lint
+      # - make test
+      - npm run test:unit
+
+  build:
+    commands:
+      - NODE_ENV=production npm run build
+      - sed -i "s~INSERT_API~${API:-API_NOT_SET}~g" dist/index.html
+
+  # Rename directory to support Distribution path behavior
+  post_build:
+    commands:
+      - mv dist updates
+
+artifacts:
+  files:
+    - updates/**/*
