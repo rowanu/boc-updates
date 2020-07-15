@@ -1,0 +1,182 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: Build and deployment pipeline.
+
+Parameters:
+
+  SiteBucketArn:
+    Description: The bucket that serves the static site
+    Type: AWS::SSM::Parameter::Value<String>
+
+  SiteBucketName:
+    Description: The bucket that serves the static site
+    Type: AWS::SSM::Parameter::Value<String>
+
+  GitHubBranch:
+    Description: The git branch to watch for changes
+    Type: String
+    Default: master
+
+  GitHubRepo:
+    Description: GitHub repository to watch for changes
+    Type: String
+
+  GitHubOwner:
+    Description: The repository's owner
+    Type: String
+
+  GitHubToken:
+    Description: OAuth token to use when communicating with GitHub
+    Type: String
+    NoEcho: true
+
+Resources:
+
+  Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
+
+  PipelineRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - codepipeline.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: /
+      Policies:
+        - PolicyName: CodePipeline
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                # TODO: Fix this scope
+                Action:
+                  - s3:*
+                  - codebuild:*
+                  # - logs:*
+                  - cloudformation:*
+                Resource: "*"
+
+  Pipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      ArtifactStore:
+        Type: S3
+        Location: !Ref Bucket
+      RestartExecutionOnUpdate: false
+      RoleArn: !Sub ${PipelineRole.Arn}
+      Stages:
+        - Name: Source
+          Actions:
+            - Name: Source
+              ActionTypeId:
+                Category: Source
+                Owner: ThirdParty
+                Provider: GitHub
+                Version: "1"
+              Configuration:
+                Owner: !Ref GitHubOwner
+                Repo: !Ref GitHubRepo
+                Branch: !Ref GitHubBranch
+                OAuthToken: !Ref GitHubToken
+              OutputArtifacts:
+                - Name: SourceOutput
+        - Name: Build
+          Actions:
+            - Name: Build
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: "1"
+              Configuration:
+                ProjectName: !Ref Project
+                # FIXME: This is hardcoded!
+                EnvironmentVariables: '[{ "name": "API", "value": "/boc/updates/api/url", "type": "PARAMETER_STORE"}]'
+              InputArtifacts:
+                - Name: SourceOutput
+              OutputArtifacts:
+                - Name: BuildOutput
+        # TODO: Deploy infrastructure
+        - Name: Site
+          Actions:
+            - Name: Deploy
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Provider: S3
+                Version: "1"
+              Configuration:
+                BucketName: !Ref SiteBucketName
+                Extract: true
+              InputArtifacts:
+                - Name: BuildOutput
+
+  BuildRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - codebuild.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Policies:
+        - PolicyName: ServiceRole
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Sid: CloudWatchLogsPolicy
+                Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: "*"
+              - Sid: S3PolicyArtifactStore
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                  - s3:PutObject
+                Resource:
+                  - !Sub ${Bucket.Arn}/*
+              - Sid: S3PolicySiteBucket
+                Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                  - s3:PutObject
+                Resource:
+                  - !Sub ${SiteBucketArn}/*
+              - Sid: SSMParameters
+                Effect: Allow
+                Action:
+                  - ssm:GetParameters
+                Resource:
+                  - !Sub
+                    arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/boc/updates/*
+
+  Project:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Artifacts:
+        Type: CODEPIPELINE
+      Environment:
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/standard:2.0
+        Type: LINUX_CONTAINER
+      Name: !Sub ${AWS::StackName}-project
+      ServiceRole: !GetAtt BuildRole.Arn
+      Source:
+        Type: CODEPIPELINE

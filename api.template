@@ -71,6 +71,14 @@ Resources:
       Type: String
       Value: !Ref HttpApi
 
+  HttpApiUrl:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Description: HTTP API URL
+      Name: !Sub ${ParameterScope}/api/url
+      Type: String
+      Value: !Sub https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com
+
 # Outputs:
 
 #   GraphQLUrl:
