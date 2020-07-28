@@ -68,6 +68,11 @@ Resources:
                     "name": "Amazon Web Services Service Status",
                     "url": "https://status.aws.amazon.com/rss/all.rss",
                     "type": "status"
+                  },
+                  {
+                    "name": "AWS CloudFormation Release Notes",
+                    "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-cloudformation-release-notes.rss",
+                    "type": "status"
                   }
                 ]
               }
