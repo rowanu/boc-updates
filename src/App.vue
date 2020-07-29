@@ -68,7 +68,7 @@ export default {
     },
   },
   mounted() {
-    console.debug('window.env.API', window.env.API)
+    console.debug({ env: window.env })
     fetch(`${window.env.API}/items`)
       .then(response => response.json())
       .then(items => (this.items = items))
