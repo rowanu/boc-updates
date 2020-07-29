@@ -98,8 +98,7 @@ Resources:
                 Version: "1"
               Configuration:
                 ProjectName: !Ref Project
-                # FIXME: This is hardcoded!
-                EnvironmentVariables: '[{ "name": "API", "value": "/boc/updates/api/url", "type": "PARAMETER_STORE"}]'
+                EnvironmentVariables: '[{ "name": "API", "value": "/updates/api", "type": "PLAINTEXT"}]'
               InputArtifacts:
                 - Name: SourceOutput
               OutputArtifacts:
