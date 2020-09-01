@@ -51,7 +51,7 @@ const handler = async event => {
     const feed = await getFeedItems(source.url)
     const items = parseItemsFrom(feed, source.name, source.type)
     // NOTE: These puts could easily be done in parallel, but no need
-    for (const item of items) {
+    for (const item of items.slice(100)) {
       const response = await put(item)
       log(response)
     }
