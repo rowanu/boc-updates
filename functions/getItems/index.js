@@ -1,5 +1,7 @@
 const AWS = require('aws-sdk')
 
+const maxAgeSeconds = 1800 // 30 minutes
+
 const client = new AWS.DynamoDB.DocumentClient({
   params: { TableName: process.env.ACTIVE_TABLE_NAME },
 })
@@ -33,20 +35,29 @@ const cleanItem = ({ link, publishedAt, source, title, type }) => ({
 })
 
 const handler = async event => {
-  log(event)
+  log({ event })
   const {
     Item: {
       sources: { values: sources },
     },
   } = await getSources()
-  log(sources)
+  log({ sources })
   let items = []
   for (const source of sources) {
     const response = await query(source)
     items = items.concat(response.Items)
   }
-  // TODO: Sort items?
-  return items.map(cleanItem)
+  const payload = {
+    statusCode: 200,
+    isBase64Encoded: false,
+    headers: {
+      'Content-Type': 'application/json',
+      'Cache-Control': `max-age=${maxAgeSeconds}`,
+    },
+    body: JSON.stringify(items.map(cleanItem)),
+  }
+  log({ payload })
+  return payload
 }
 
 exports.handler = handler

@@ -23,9 +23,8 @@ Resources:
         Format: $context.requestId
       CorsConfiguration:
         AllowOrigins:
-          - http://* # TODO: Remove, testing
           - https://bigorange.cloud
-          - http://localhost:8080 # TODO: Remove/Make configurable
+          - http://localhost:8080  # TODO: Remove/Make configurable
         AllowMethods:
           - GET
 
