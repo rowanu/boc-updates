@@ -31,7 +31,6 @@ Resources:
         Variables:
           AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1"
           ACTIVE_TABLE_NAME: !Ref ActiveTableName
-          ITEM_LIMIT: 50
       Events:
         Schedule:
           Type: Schedule

@@ -1,8 +1,6 @@
 const AWS = require('aws-sdk')
 const Parser = require('rss-parser')
 
-const itemLimit = process.env.ITEM_LIMIT || 100
-
 const client = new AWS.DynamoDB.DocumentClient({
   params: { TableName: process.env.ACTIVE_TABLE_NAME },
 })
@@ -53,7 +51,7 @@ const handler = async event => {
     const feed = await getFeedItems(source.url)
     const items = parseItemsFrom(feed, source.name, source.type)
     // NOTE: These puts could easily be done in parallel, but no need
-    for (const item of items.slice(itemLimit)) {
+    for (const item of items.slice(100)) {
       const response = await put(item)
       log(response)
     }
