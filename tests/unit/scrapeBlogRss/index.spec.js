@@ -52,4 +52,19 @@ describe('readFeed', () => {
       expect(item.type).toEqual('api')
     })
   })
+
+  describe('sortByPublishedAt', () => {
+    it('sorts by publishedAt', () => {
+      const items = [
+        {
+          publishedAt: '2020-04-16T17:54:52.000Z',
+        },
+        {
+          publishedAt: '2020-04-17T17:54:52.000Z',
+        },
+      ]
+      const sorted = index.sortByPublishedAt(items)
+      expect(sorted).toEqual([items[1], items[0]])
+    })
+  })
 })

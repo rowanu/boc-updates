@@ -7,6 +7,11 @@ const client = new AWS.DynamoDB.DocumentClient({
 const log = data => console.log(JSON.stringify(data))
 const parser = new Parser()
 
+const sortByPublishedAt = items =>
+  items
+    .slice()
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+
 const getFeedItems = async url => {
   const feed = await parser.parseURL(url)
   return feed.items
@@ -50,8 +55,10 @@ const handler = async event => {
     await updateSources(source.name)
     const feed = await getFeedItems(source.url)
     const items = parseItemsFrom(feed, source.name, source.type)
+    const sorted = sortByPublishedAt(items)
     // NOTE: These puts could easily be done in parallel, but no need
-    for (const item of items) {
+    // TODO: Make this an environment variable
+    for (const item of sorted.slice(0, 50)) {
       const response = await put(item)
       log(response)
     }
@@ -60,3 +67,4 @@ const handler = async event => {
 
 exports.handler = handler
 exports.parseItemsFrom = parseItemsFrom
+exports.sortByPublishedAt = sortByPublishedAt
