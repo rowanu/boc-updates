@@ -40,11 +40,6 @@ Resources:
               {
                 "sources": [
                   {
-                    "name": "AWS Blog",
-                    "url": "https://feeds.feedburner.com/AmazonWebServicesBlog",
-                    "type": "blog"
-                  },
-                  {
                     "name": "What's New With AWS",
                     "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
                     "type": "blog"
