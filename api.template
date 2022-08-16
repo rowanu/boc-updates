@@ -38,7 +38,7 @@ Resources:
       Handler: index.handler
       MemorySize: 512
       Timeout: 5
-      Runtime: nodejs12.x
+      Runtime: nodejs16.x
       Environment:
         Variables:
           ACTIVE_TABLE_NAME: !Ref ActiveTableName
