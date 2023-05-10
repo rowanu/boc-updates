@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.656.0",
-    "rss-parser": "^3.7.6"
+    "aws-sdk": "^2.1375.0",
+    "rss-parser": "^3.13.0"
   }
 }
