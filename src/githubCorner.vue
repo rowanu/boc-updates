@@ -8,7 +8,7 @@
       width="50"
       height="50"
       viewBox="0 0 250 250"
-      class="fill-black"
+      class="fill-black dark:fill-orange-500"
       style="color: WhiteSmoke; position: absolute; top: 0; border: 0; right: 0"
       aria-hidden="true"
     >

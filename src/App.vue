@@ -1,21 +1,25 @@
 <script setup>
 import GithubCorner from "./githubCorner.vue";
+import { useDark, useToggle } from '@vueuse/core'
+
+const isDark = useDark()
+useToggle(isDark)
 </script>
 
 <template>
   <div id="app">
-    <div class="text-2xl px-4 pt-1">
+    <div class="text-2xl px-4 pt-1 text-black dark:text-gray-100">
       <a href="https://bigorange.cloud/updates">
-        Big<span class="-lg text-orange-500">Orange</span>.Cloud/Updates</a
+        Big<span class="-lg text-orange-500 dark:text-orange-500">Orange</span>.Cloud/Updates</a
       >
     </div>
     <div class="">
       <div v-for="item in groupedItems" :key="item.id" class="px-3 py-1">
-        <div v-if="item.title" :class="{ 'font-bold': item.isNew }">
+        <div v-if="item.title" :class="{ 'font-bold': item.isNew }" class="dark:text-gray-200">
           <a :href="item.link" target="_blank" class="text-lg">
             {{ item.title }}
           </a>
-          <span class="text-sm px-2 font-thin text-gray-500">
+          <span class="text-sm px-2 font-thin text-gray-500 dark:text-gray-200">
             {{ item.source }}
           </span>
         </div>
