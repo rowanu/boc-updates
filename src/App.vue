@@ -23,9 +23,11 @@
       </div>
     </div>
   </div>
+  <GithubCorner />
 </template>
 
 <script>
+import GithubCorner from './githubCorner.vue'
 export default {
   name: 'App',
   data() {
@@ -34,7 +36,9 @@ export default {
       items: [],
     }
   },
-  components: {},
+  components: {
+    GithubCorner,
+  },
   watch: {
     items(val) {
       console.debug(`${val.length} items recieved`)
@@ -68,8 +72,7 @@ export default {
     },
   },
   mounted() {
-    console.debug({ env: window.env })
-    fetch(`${window.env.API}/items`)
+    fetch(`${process.env.VUE_APP_API_BASE_URL}/items`)
       .then(response => response.json())
       .then(items => (this.items = items))
 

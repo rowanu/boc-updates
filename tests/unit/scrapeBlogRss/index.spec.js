@@ -1,4 +1,5 @@
-const index = require('@/../functions/scrapeBlogRss')
+const index = require('../../../functions/scrapeBlogRss')
+import { describe, expect, it, vi } from 'vitest';
 
 describe('readFeed', () => {
   it('has a handler', () => {
