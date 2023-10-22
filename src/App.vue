@@ -75,7 +75,7 @@ export default {
     },
   },
   mounted() {
-    fetch(`${process.env.VUE_APP_API_BASE_URL}/items`)
+    fetch(`https://bigorange.cloud/updates/api/items`)
       .then((response) => response.json())
       .then((items) => (this.items = items));
 
