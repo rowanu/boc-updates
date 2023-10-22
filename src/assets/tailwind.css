@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.dark {
+  background-color:#040D12;
+  color: white;
+  /* Add other styles for dark mode */
+}
