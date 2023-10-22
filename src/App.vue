@@ -1,3 +1,7 @@
+<script setup>
+import GithubCorner from './githubCorner.vue'
+</script>
+
 <template>
   <div id="app">
     <div class="text-2xl px-4 pt-1">
@@ -27,7 +31,6 @@
 </template>
 
 <script>
-import GithubCorner from './githubCorner.vue'
 export default {
   name: 'App',
   data() {

@@ -1,5 +1,5 @@
-const { handler, cleanItem } = require('../../../functions/getItems')
-import { describe, expect, it, vi } from 'vitest';
+import { handler, cleanItem } from '../../../functions/getItems'
+import { describe, expect, it } from 'vitest';
 
 describe('getItems', () => {
   it('has a handler', () => {
