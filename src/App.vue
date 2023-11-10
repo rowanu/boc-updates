@@ -1,3 +1,7 @@
+<script setup>
+import GithubCorner from "./githubCorner.vue";
+</script>
+
 <template>
   <div id="app">
     <div class="text-2xl px-4 pt-1">
@@ -23,64 +27,69 @@
       </div>
     </div>
   </div>
+  <GithubCorner />
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
       lastVisit: null,
       items: [],
-    }
+    };
   },
-  components: {},
+  components: {
+    GithubCorner,
+  },
   watch: {
     items(val) {
-      console.debug(`${val.length} items recieved`)
+      console.debug(`${val.length} items recieved`);
     },
   },
   methods: {
     friendlyDate(date) {
-      return new Date(date).toUTCString().slice(0, 11)
+      return new Date(date).toUTCString().slice(0, 11);
     },
   },
   computed: {
     groupedItems() {
-      const groupedItems = []
+      const groupedItems = [];
 
-      let lastDate = ''
+      let lastDate = "";
       for (const item of this.sortedItems) {
-        const date = item.publishedAt.slice(0, 10)
+        const date = item.publishedAt.slice(0, 10);
         if (date !== lastDate) {
-          groupedItems.push({ date })
-          lastDate = date
+          groupedItems.push({ date });
+          lastDate = date;
         }
-        item.isNew = new Date(item.publishedAt) > new Date(this.lastVisit)
-        groupedItems.push(item)
+        item.isNew = new Date(item.publishedAt) > new Date(this.lastVisit);
+        groupedItems.push(item);
       }
-      return groupedItems
+      return groupedItems;
     },
     sortedItems() {
       return this.items.slice().sort((a, b) => {
-        return b.publishedAt.localeCompare(a.publishedAt)
-      })
+        return b.publishedAt.localeCompare(a.publishedAt);
+      });
     },
   },
   mounted() {
-    console.debug({ env: window.env })
-    fetch(`${window.env.API}/items`)
-      .then(response => response.json())
-      .then(items => (this.items = items))
+    fetch(`https://bigorange.cloud/updates/api/items`)
+      .then((response) => response.json())
+      .then((items) => (this.items = items));
 
-    this.lastVisit = localStorage.getItem('lastVisit')
-    console.debug('lastVisit', this.lastVisit)
+    this.lastVisit = localStorage.getItem("lastVisit");
+    console.debug("lastVisit", this.lastVisit);
     setTimeout(() => {
-      localStorage.setItem('lastVisit', new Date().toISOString())
-      console.debug('localStorage.lastVisit', localStorage.getItem('lastVisit'))
-    }, 5000)
+      localStorage.setItem("lastVisit", new Date().toISOString());
+      console.debug(
+        "localStorage.lastVisit",
+        localStorage.getItem("lastVisit"),
+      );
+    }, 5000);
   },
-}
+};
 </script>
 
 <style></style>
