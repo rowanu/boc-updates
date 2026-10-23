@@ -16,6 +16,16 @@ useToggle(isDark)
     <div class="">
       <div v-for="item in groupedItems" :key="item.id" class="px-3 py-1">
         <div v-if="item.title" :class="{ 'font-bold': item.isNew }" class="dark:text-gray-200">
+          <span v-if="iconsFor(item).length" class="inline-flex align-middle mr-1">
+            <img
+              v-for="icon in iconsFor(item)"
+              :key="icon.slug"
+              :src="icon.src"
+              :alt="icon.name"
+              :title="icon.name"
+              class="w-5 h-5 mr-1 inline-block"
+            />
+          </span>
           <a :href="item.link" target="_blank" class="text-lg">
             {{ item.title }}
           </a>
@@ -35,6 +45,8 @@ useToggle(isDark)
 </template>
 
 <script>
+import { iconsForCategories } from "./serviceIcons";
+
 export default {
   name: "App",
   data() {
@@ -54,6 +66,9 @@ export default {
   methods: {
     friendlyDate(date) {
       return new Date(date).toUTCString().slice(0, 11);
+    },
+    iconsFor(item) {
+      return iconsForCategories(item.categories);
     },
   },
   computed: {

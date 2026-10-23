@@ -21,6 +21,13 @@ describe('readFeed', () => {
       expect(item.publishedAt).toEqual('2020-04-08T20:00:19.000Z')
       expect(item.source).toEqual('AWS Blog')
       expect(item.type).toEqual('blog')
+      expect(item.categories).toEqual([
+        'Amazon Elastic Container Service',
+        'Amazon Elastic File System (EFS)',
+        'Announcements',
+        'Containers',
+        'News',
+      ])
     })
     it("converts a What's New feed item to a DDB item", () => {
       const feed = require('./WhatsNewWithAWS-feed.json')
@@ -36,6 +43,9 @@ describe('readFeed', () => {
       expect(item.publishedAt).toEqual('2020-04-17T17:54:52.000Z')
       expect(item.source).toEqual('Recent Announcements')
       expect(item.type).toEqual('blog')
+      expect(item.categories).toEqual([
+        'general:products/amazon-machine-learning,general:products/amazon-sagemaker',
+      ])
     })
     it('converts an awsapichanges.info feed item to a DDB item', () => {
       const feed = require('./awsapichanges.info-feed.json')
@@ -51,6 +61,7 @@ describe('readFeed', () => {
       expect(item.publishedAt).toEqual('2020-06-26T18:30:57.000Z')
       expect(item.source).toEqual('API Changes')
       expect(item.type).toEqual('api')
+      expect(item.categories).toEqual([])
     })
   })
 
