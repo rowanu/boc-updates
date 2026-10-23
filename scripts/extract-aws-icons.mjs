@@ -99,25 +99,27 @@ for (const src of serviceSvg48) {
   icons[slug] = displayFromSlug(slug);
 }
 
-// Common short-form -> canonical aliases. Only kept if the canonical icon
-// actually exists in the extracted set.
-const candidateAliases = {
-  "amazon-ecs": "amazon-elastic-container-service",
-  "amazon-eks": "amazon-elastic-kubernetes-service",
-  "amazon-ecr": "amazon-elastic-container-registry",
-  "amazon-efs": "amazon-elastic-file-system",
-  "amazon-ebs": "amazon-elastic-block-store",
-  "amazon-s3": "amazon-simple-storage-service",
-  "amazon-vpc": "amazon-virtual-private-cloud",
-  "amazon-sns": "amazon-simple-notification-service",
-  "amazon-sqs": "amazon-simple-queue-service",
-  "amazon-ses": "amazon-simple-email-service",
-  "aws-iam": "aws-identity-and-access-management",
-  "aws-kms": "aws-key-management-service",
-};
+// Pairs of short/long names for services with multiple common spellings.
+// For each pair, whichever has an .svg becomes canonical and the other
+// becomes an alias pointing to it. Add pairs here as new mismatches surface.
+const namePairs = [
+  ["amazon-ecs", "amazon-elastic-container-service"],
+  ["amazon-eks", "amazon-elastic-kubernetes-service"],
+  ["amazon-ecr", "amazon-elastic-container-registry"],
+  ["amazon-efs", "amazon-elastic-file-system"],
+  ["amazon-ebs", "amazon-elastic-block-store"],
+  ["amazon-s3", "amazon-simple-storage-service"],
+  ["amazon-vpc", "amazon-virtual-private-cloud"],
+  ["amazon-sns", "amazon-simple-notification-service"],
+  ["amazon-sqs", "amazon-simple-queue-service"],
+  ["amazon-ses", "amazon-simple-email-service"],
+  ["aws-iam", "aws-identity-and-access-management"],
+  ["aws-kms", "aws-key-management-service"],
+];
 const aliases = {};
-for (const [k, v] of Object.entries(candidateAliases)) {
-  if (icons[v]) aliases[k] = v;
+for (const [a, b] of namePairs) {
+  if (icons[a] && !icons[b]) aliases[b] = a;
+  else if (icons[b] && !icons[a]) aliases[a] = b;
 }
 
 const manifest = { icons, aliases };
