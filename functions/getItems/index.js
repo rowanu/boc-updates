@@ -26,12 +26,13 @@ const query = async function(source) {
   return client.query(params).promise();
 };
 
-const cleanItem = ({ link, publishedAt, source, title, type }) => ({
+const cleanItem = ({ link, publishedAt, source, title, type, categories }) => ({
   link,
   publishedAt,
   source,
   title,
   type,
+  categories: categories ?? [],
 });
 
 const handler = async (event) => {

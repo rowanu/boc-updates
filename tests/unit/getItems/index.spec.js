@@ -18,10 +18,16 @@ describe('getItems', () => {
         title:
           'Amazon CodeGuru Profiler announces availability of hourly recommendation reports to remediate issues quickly',
         type: 'blog',
+        categories: ['Amazon CodeGuru'],
       }
       const item = cleanItem(rawItem)
       expect(item.PK).toEqual(undefined)
       expect(item.SK).toEqual(undefined)
+    })
+
+    it('passes categories through, defaulting to []', () => {
+      expect(cleanItem({ title: 't' }).categories).toEqual([])
+      expect(cleanItem({ title: 't', categories: ['Amazon EC2'] }).categories).toEqual(['Amazon EC2'])
     })
   })
 })
