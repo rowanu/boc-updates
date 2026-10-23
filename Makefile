@@ -21,6 +21,12 @@ install: functions
 clean:
 	rm -rf dist/
 
+# Serve a production build locally at http://localhost:4173/updates/
+.PHONY: preview
+preview:
+	NODE_ENV=production npm run build
+	npm run preview
+
 .PHONY: test
 test:
 	npm run test:unit

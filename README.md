@@ -96,15 +96,32 @@ aws s3 cp s3://$SITE_BUCKET/updates/index.html \
 
 ## Development
 
-Environment variables are not injected in to the `index.html` in development,
-they're sourced from environment variables.
-
-To run the front-end locally:
+To run the front-end locally (with hot reload):
 
 ```
-VUE_APP_API=$API
 npm run serve
 ```
+
+### Previews
+
+To check changes before committing, build the site as it would be deployed and
+serve it locally:
+
+```
+make preview
+```
+
+Then open http://localhost:4173/updates/.
+
+### API and CORS
+
+The front-end calls the API using the relative path `/updates/api`. In
+production the site and API are on the same domain, so no CORS is involved.
+
+When running locally (`npm run serve` or `make preview`), Vite proxies
+`/updates/api` to `https://bigorange.cloud`, so the browser only ever talks to
+`localhost` and the API's CORS allow-list doesn't need to include it. This
+means local runs show **live production data**.
 
 ### Testing
 
