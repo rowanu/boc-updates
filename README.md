@@ -106,6 +106,20 @@ VUE_APP_API=$API
 npm run serve
 ```
 
+### Previews
+
+To preview a branch before merging, build and upload it to
+`https://bigorange.cloud/updates/previews/<branch>/` (requires AWS
+credentials):
+
+```
+make preview
+make preview-clean  # remove it when done
+```
+
+The branch defaults to the current git branch (`/` replaced with `-`);
+override with `PREVIEW_BRANCH=<name>`.
+
 ### Testing
 
 All tests (for functions and front-end) live in `/tests`:
