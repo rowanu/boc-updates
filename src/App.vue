@@ -79,7 +79,7 @@ export default {
     },
   },
   mounted() {
-    fetch(`https://bigorange.cloud/updates/api/items`)
+    fetch(`/updates/api/items`)
       .then((response) => response.json())
       .then((items) => (this.items = items));
 
