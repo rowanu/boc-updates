@@ -68,7 +68,7 @@ export default {
       return new Date(date).toUTCString().slice(0, 11);
     },
     iconsFor(item) {
-      return iconsForCategories(item.categories);
+      return iconsForCategories(item.categories, { title: item.title });
     },
   },
   computed: {
